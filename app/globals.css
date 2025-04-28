@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 240, 240, 240;
+  --correct-color: 34, 197, 94;
+  --incorrect-color: 239, 68, 68;
+  --neutral-color: 240, 240, 240;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  transition: background-color 0.5s ease;
+}
+
+body.correct-answer {
+  background-color: rgba(var(--correct-color), 0.2);
+}
+
+body.incorrect-answer {
+  background-color: rgba(var(--incorrect-color), 0.2);
+}
+
+@layer components {
+  .neomorphic-card {
+    background: #f0f0f0;
+    box-shadow: 10px 10px 20px #d1d1d1, -10px -10px 20px #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+  }
+
+  .neomorphic-button {
+    background: #f0f0f0;
+    box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    border-radius: 20px;
+  }
+
+  .neomorphic-button:active {
+    box-shadow: inset 4px 4px 8px #d1d1d1, inset -4px -4px 8px #ffffff;
+  }
+
+  .neomorphic-button-small {
+    background: #f0f0f0;
+    box-shadow: 4px 4px 8px #d1d1d1, -4px -4px 8px #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 16px;
+  }
+
+  .neomorphic-button-small:active {
+    box-shadow: inset 3px 3px 6px #d1d1d1, inset -3px -3px 6px #ffffff;
+  }
+
+  .neomorphic-circle {
+    background: #f0f0f0;
+    box-shadow: 3px 3px 6px #d1d1d1, -3px -3px 6px #ffffff;
+    border-radius: 50%;
+  }
+
+  .timer-container {
+    background: #f0f0f0;
+    box-shadow: inset 3px 3px 6px #d1d1d1, inset -3px -3px 6px #ffffff;
+    border-radius: 20px;
+    height: 10px;
+    overflow: hidden;
+  }
+
+  .timer-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #60a5fa, #8b5cf6);
+    border-radius: 20px;
+    transition: width 1s linear;
+  }
+
+  .option-correct {
+    background: rgba(var(--correct-color), 0.2) !important;
+    border: 2px solid rgb(var(--correct-color)) !important;
+    box-shadow: 0 0 15px rgba(var(--correct-color), 0.5) !important;
+  }
+
+  .option-incorrect {
+    background: rgba(var(--incorrect-color), 0.2) !important;
+    border: 2px solid rgb(var(--incorrect-color)) !important;
+    box-shadow: 0 0 15px rgba(var(--incorrect-color), 0.5) !important;
+  }
+
+  .battle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .battle-red,
+  .battle-green {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+  }
+}
