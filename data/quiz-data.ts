@@ -4,7 +4,7 @@ export const quizData: Assignment[] = [
   // Week 1
   {
         "id": "week-1",
-        "title": "Leadership Fundamentals",
+        "title": "Week-1 Leadership Fundamentals",
         "questions": [
           {
             "id": "w1q1",
@@ -118,7 +118,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-2",
-        "title": "Leadership Models",
+        "title": "Week-2 Leadership Models",
         "questions": [
           {
             "id": "w2q1",
@@ -234,7 +234,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-3",
-        "title": "Leadership Theories",
+        "title": "Week-3 Leadership Theories",
         "questions": [
           {
             "id": "w3q1",
@@ -348,7 +348,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-4",
-        "title": "Intelligence and Power",
+        "title": "Week-4 Intelligence and Power",
         "questions": [
           {
             "id": "w4q1",
@@ -460,7 +460,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-5",
-        "title": "Authentic Leadership",
+        "title": "Week-5 Authentic Leadership",
         "questions": [
           {
             "id": "w5q1",
@@ -572,7 +572,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-6",
-        "title": "Destructive Leadership and Crisis Management",
+        "title": "Week-6 Destructive Leadership and Crisis Management",
         "questions": [
           {
             "id": "w6q1",
@@ -684,7 +684,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-7",
-        "title": "Organizational Culture and Leadership",
+        "title": "Week-7 Organizational Culture and Leadership",
         "questions": [
           {
             "id": "w7q1",
@@ -798,7 +798,7 @@ export const quizData: Assignment[] = [
       },
       {
         "id": "week-8",
-        "title": "Group Dynamics and Team Development",
+        "title": "Week-8 Group Dynamics and Team Development",
         "questions": [
           {
             "id": "w8q1",
@@ -912,7 +912,7 @@ export const quizData: Assignment[] = [
       },
       {
             "id": "week-9",
-            "title": "Team Effectiveness",
+            "title": "Week-9 Team Effectiveness",
             "questions": [
               {
                 "id": "w9q6",
@@ -973,7 +973,7 @@ export const quizData: Assignment[] = [
           },
           {
             "id": "week-11",
-            "title": "Leadership Communication and Coaching",
+            "title": "Week-10 Leadership Communication and Coaching",
             "questions": [
               {
                 "id": "w11q1",
@@ -1084,134 +1084,8 @@ export const quizData: Assignment[] = [
             ]
           },
           {
-            "id": "week-12",
-            "title": "Organizational Behaviour: Individual Dynamics in Organization",
-            "questions": [
-              {
-                "id": "w12q1",
-                "text": "What does 'Employee Voice' refer to in an organizational setting?",
-                "options": [
-                  "The tone in which employees communicate",
-                  "Employees openly expressing their opinions and concerns",
-                  "Employees following orders without questioning",
-                  "Using a specific communication tool at work",
-                  "Silence in team meetings"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "id": "w12q2",
-                "text": "Which of the following best describes 'Employee Silence'?",
-                "options": [
-                  "Employees refusing to communicate due to laziness",
-                  "Employees actively choosing to withhold opinions, concerns, or feedback",
-                  "Employees being unable to speak due to physical constraints",
-                  "Employees gossiping instead of speaking up",
-                  "Employees always agreeing with management"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "id": "w12q3",
-                "text": "Which type of silence occurs when employees fear negative consequences for speaking up?",
-                "options": [
-                  "Prosocial silence",
-                  "Motivational silence",
-                  "Acquiescent silence",
-                  "Strategic silence",
-                  "Defensive silence"
-                ],
-                "correctAnswer": 4
-              },
-              {
-                "id": "w12q4",
-                "text": "What is the primary reason employees engage in 'Acquiescent Silence'?",
-                "options": [
-                  "They believe their voice will not make a difference",
-                  "They enjoy being quiet",
-                  "They do not have any opinions",
-                  "They are too busy with work",
-                  "They lack the ability to speak"
-                ],
-                "correctAnswer": 0
-              },
-              {
-                "id": "w12q5",
-                "text": "Which leadership style is most likely to encourage Employee Voice?",
-                "options": [
-                  "Autocratic leadership",
-                  "Transformational leadership",
-                  "Laissez-faire leadership",
-                  "Transactional leadership",
-                  "Bureaucratic leadership"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "id": "w12q6",
-                "text": "What is 'Pro-social Silence'?",
-                "options": [
-                  "Remaining silent to protect the organization or team",
-                  "Being silent because of fear",
-                  "Ignoring workplace issues to avoid responsibility",
-                  "Withholding ideas due to lack of confidence",
-                  "Staying silent because of lack of knowledge"
-                ],
-                "correctAnswer": 0
-              },
-              {
-                "id": "w12q7",
-                "text": "What is 'Moral Muteness' in organizations?",
-                "options": [
-                  "Teams discussing ethics openly",
-                  "Managers enforcing ethical guidelines",
-                  "Employees avoiding discussions on ethical issues",
-                  "Employees refusing to follow unethical orders",
-                  "Employees always speaking about ethical concerns"
-                ],
-                "correctAnswer": 2
-              },
-              {
-                "id": "w12q8",
-                "text": "What is 'Whistleblowing' in the context of Employee Voice?",
-                "options": [
-                  "Gossiping about colleagues",
-                  "Complaining about minor workplace issues",
-                  "Ignoring unethical practices in the workplace",
-                  "Reporting workplace misconduct or unethical behavior",
-                  "None of the above"
-                ],
-                "correctAnswer": 3
-              },
-              {
-                "id": "w12q9",
-                "text": "Which factor contributes most to Employee Silence?",
-                "options": [
-                  "Strong teamwork",
-                  "Fear of retaliation or punishment",
-                  "Open leadership styles",
-                  "Transparent communication",
-                  "Innovation-driven culture"
-                ],
-                "correctAnswer": 1
-              },
-              {
-                "id": "w12q10",
-                "text": "Which of the following is a key enabler of Employee Voice?",
-                "options": [
-                  "Open and inclusive workplace culture",
-                  "Fear of retaliation",
-                  "Strict hierarchical control",
-                  "Lack of communication channels",
-                  "High levels of job insecurity"
-                ],
-                "correctAnswer": 0
-              }
-            ]
-          },
-          {
             "id": "week-12-assignment",
-            "title": "Team Development and Problem-Solving",
+            "title": "Week-11 Team Development and Problem-Solving",
             "questions": [
               {
                 "id": "w12aq1",
