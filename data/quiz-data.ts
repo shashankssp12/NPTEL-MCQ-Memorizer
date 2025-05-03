@@ -266,7 +266,7 @@ export const quizData: Assignment[] = [
           "Low direction, high support",
           "High direction, low support"
         ],
-        "correctAnswer": 2
+        "correctAnswer": 3
       },
       {
         "id": "w2q9",
@@ -328,7 +328,7 @@ export const quizData: Assignment[] = [
           "Maintaining the status quo",
           "Exchanging rewards for loyalty"
         ],
-        "correctAnswer": 2
+        "correctAnswer": 1
       },
       {
         "id": "w3q4",
@@ -359,7 +359,7 @@ export const quizData: Assignment[] = [
           "Systematic resource allocation",
           "Action learning"
         ],
-        "correctAnswer": 3
+        "correctAnswer": 2
       },
       {
         "id": "w3q7",
@@ -392,7 +392,7 @@ export const quizData: Assignment[] = [
           "General characteristics that form the foundation of personality",
           "Observable traits displayed in daily interactions"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 2
       },
       {
         "id": "w3q10",
@@ -513,9 +513,10 @@ export const quizData: Assignment[] = [
         "options": [
           "It simplifies organizational hierarchies",
           "It increases the scarcity of resources",
+          "The greater the dependency, the greater the power",
           "It aligns with financial resources"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 2
       }
     ]
   },
@@ -586,7 +587,7 @@ export const quizData: Assignment[] = [
             "Middle-of-the-Road Management",
             "Authority-Compliance Management"
           ],
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "id": "w5q7",
@@ -699,7 +700,7 @@ export const quizData: Assignment[] = [
             "The complexity of the task structure",
             "The freedom to decide how to complete a task"
           ],
-          "correctAnswer": 4
+          "correctAnswer": 3
         },
         {
           "id": "w6q7",
@@ -759,7 +760,7 @@ export const quizData: Assignment[] = [
             "Diversity, hierarchy, market orientation, team spirit, creativity, empathy, ethics",
             "Problem-solving, innovation, motivation, leadership agility, communication, collaboration, trust"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w7q2",
@@ -770,7 +771,7 @@ export const quizData: Assignment[] = [
             "Minimizing risk in decision-making",
             "Fostering strict adherence to established procedures"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w7q3",
@@ -792,7 +793,7 @@ export const quizData: Assignment[] = [
             "Adopting a laissez-faire leadership style",
             "Focusing solely on profitability"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w7q5",
@@ -814,7 +815,7 @@ export const quizData: Assignment[] = [
             "Autonomous leadership",
             "Humane-oriented leadership"
           ],
-          "correctAnswer": 4
+          "correctAnswer": 3
         },
         {
           "id": "w7q7",
@@ -825,7 +826,7 @@ export const quizData: Assignment[] = [
             "Trustworthiness",
             "Dictatorial behavior"
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         },
         {
           "id": "w7q8",
@@ -836,7 +837,7 @@ export const quizData: Assignment[] = [
             "Balancing global integration with local responsiveness",
             "Avoiding risk-taking in complex environments"
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         },
         {
           "id": "w7q9",
@@ -847,7 +848,7 @@ export const quizData: Assignment[] = [
             "High goals demotivate employees",
             "Leadership should remain neutral to follower expectations"
           ],
-          "correctAnswer": 1
+          "correctAnswer": 0
         },
         {
           "id": "w7q10",
@@ -874,7 +875,7 @@ export const quizData: Assignment[] = [
             "Group members with diverse opinions should be excluded to avoid conflict.",
             "Strong pressure for change can be created by fostering a shared perception of the need for change."
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         },
         {
           "id": "w8q2",
@@ -894,7 +895,7 @@ export const quizData: Assignment[] = [
             "Their self-esteem is tied to the group's performance.",
             "They are empathetic to other group members."
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         },
         {
           "id": "w8q4",
@@ -905,7 +906,7 @@ export const quizData: Assignment[] = [
             "Exchange Theory",
             "Homan's Theory"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w8q5",
@@ -916,7 +917,7 @@ export const quizData: Assignment[] = [
             "Leadership norms",
             "Allocation of resources norms"
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         },
         {
           "id": "w8q6",
@@ -927,7 +928,7 @@ export const quizData: Assignment[] = [
             "Group-shift",
             "Deviant workplace behavior"
           ],
-          "correctAnswer": 1
+          "correctAnswer": 0
         },
         {
           "id": "w8q7",
@@ -938,7 +939,7 @@ export const quizData: Assignment[] = [
             "Discourage independent opinion collection.",
             "Rely heavily on experts."
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w8q8",
@@ -949,7 +950,7 @@ export const quizData: Assignment[] = [
             "Status hierarchy",
             "Herd behavior"
           ],
-          "correctAnswer": 1
+          "correctAnswer": 3
         },
         {
           "id": "w8q9",
@@ -960,7 +961,7 @@ export const quizData: Assignment[] = [
             "The individual performances of team members working independently.",
             "The competition among team members to achieve personal goals."
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w8q10",
@@ -971,7 +972,7 @@ export const quizData: Assignment[] = [
             "Increased individual recognition",
             "Improved turnover"
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         }
       ]
     },
@@ -1011,7 +1012,7 @@ export const quizData: Assignment[] = [
             "Collaborating (including, involving)",
             "Negotiating upward to secure necessary resources for the team"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "id": "w9q4",
@@ -1044,7 +1045,7 @@ export const quizData: Assignment[] = [
             "Process Gain is a measure of efficiency, while Process Loss is a measure of effectiveness.",
             "Process Gain highlights the positive aspects of team conflict, while Process Loss focuses on the negative aspects."
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w9q7",
@@ -1055,7 +1056,7 @@ export const quizData: Assignment[] = [
             "When performance activities have been completed",
             "Throughout the entire performance period"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 0
         },
         {
           "id": "w9q8",
@@ -1066,7 +1067,7 @@ export const quizData: Assignment[] = [
             "Long-term relationships and shared experiences",
             "Open communication and mutual respect"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w9q9",
@@ -1117,7 +1118,7 @@ export const quizData: Assignment[] = [
             "Establishing team norms",
             "Facilitating creative thinking"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w10q3",
@@ -1159,7 +1160,7 @@ export const quizData: Assignment[] = [
             "True",
             "False"
           ],
-          "correctAnswer": 1
+          "correctAnswer": 0
         },
         {
           "id": "w10q7",
@@ -1219,7 +1220,7 @@ export const quizData: Assignment[] = [
             "Reviewing team performance",
             "Enhancing team autonomy"
           ],
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "id": "w11q2",
@@ -1294,7 +1295,7 @@ export const quizData: Assignment[] = [
             "Relationships between supervisors and subordinates",
             "Team morale during management transitions"
           ],
-          "correctAnswer": 3
+          "correctAnswer": 2
         },
         {
           "id": "w11q9",
