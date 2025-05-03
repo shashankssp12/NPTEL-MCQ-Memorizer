@@ -2,7 +2,7 @@
 
 🎁👆A fun project to help my fellow batchmates prepare for NPTEL quizzes more effectively through active recall and practice testing!
 
-[![NPTEL Quiz Memorizer Demo](images/UI.png)](https://nptel-mcq.pages.dev)
+[![NPTEL Quiz Memorizer Demo](images/demo.gif)](https://nptel-mcq.pages.dev)
 
 🌐 **Try it now:** [nptel-mcq.pages.dev](https://nptel-mcq.pages.dev) 👆
 
