@@ -2,7 +2,8 @@
 
 A fun project to help my fellow batchmates prepare for NPTEL quizzes more effectively!
 
-![NPTEL Quiz Memorizer Screenshot](images/screenshot.png)
+[![NPTEL Quiz Memorizer Screenshot](/images/UI.png)](https://nptel-mcq.pages.dev)
+
 
 ## What is this?
 
@@ -16,33 +17,6 @@ NPTEL Quiz Memorizer is a simple platform designed to help students memorize qui
 
 ![Results View](images/results-view.png)
 
-## Setup in Just 2 Steps!
-
-Getting started with NPTEL Quiz Memorizer is incredibly simple:
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/nptel-quiz-3.git
-cd nptel-quiz-3
-```
-
-### Step 2: Open the Application
-
-Simply open the `index.html` file in your browser:
-
-```bash
-# On Windows
-start index.html
-
-# On macOS
-open index.html
-
-# On Linux
-xdg-open index.html
-```
-
-That's it! No complicated installations or dependencies required.
 
 ## How to Use
 
