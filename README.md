@@ -19,6 +19,22 @@ NPTEL Quiz Memorizer is a simple platform designed to help students memorize qui
 - **Exam-Aligned Content**: Practice with questions that mirror actual NPTEL theory exams
 - **Progress Tracking**: Monitor your improvement and identify weak areas
 
+## How to Run the Project
+**You can set up and run this project with just these simple steps:**
+> Clone the repository 
+`git clone https://github.com/shashankssp12/NPTEL-MCQ-Memorizer.git`
+
+> Navigate to project directory
+`cd projectFolder`
+
+> Install dependencies
+`pnpm install`
+
+> Run the development server
+`pnpm dev`
+
+This will start the Next.js development server, typically on http://localhost:3000.
+
 ## How to Use
 
 1. Select the NPTEL course's Week you want to practice
