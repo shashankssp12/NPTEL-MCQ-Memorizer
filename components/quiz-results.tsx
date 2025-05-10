@@ -1,33 +1,41 @@
-"use client"
+"use client";
 
-import { useEffect, useRef, useState } from "react"
-import { motion } from "framer-motion"
-import confetti from "canvas-confetti"
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar"
-import "react-circular-progressbar/dist/styles.css"
+import { useRef, useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import confetti from "canvas-confetti";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 interface QuizResultsProps {
-  score: number
-  totalQuestions: number
-  percentage: number
-  onRetry: () => void
-  onBackToWeeks: () => void
+  score: number;
+  totalQuestions: number;
+  percentage: number;
+  onRetry: () => void;
+  onBackToWeeks: () => void;
+  isMuted?: boolean;
 }
 
-export default function QuizResults({ score, totalQuestions, percentage, onRetry, onBackToWeeks }: QuizResultsProps) {
-  const confettiRef = useRef<HTMLDivElement>(null)
-  const [battleComplete, setBattleComplete] = useState(false)
+export default function QuizResults({
+  score,
+  totalQuestions,
+  percentage,
+  onRetry,
+  onBackToWeeks,
+  isMuted = false,
+}: QuizResultsProps) {
+  const confettiRef = useRef<HTMLDivElement>(null);
+  const [battleComplete, setBattleComplete] = useState(false);
 
   useEffect(() => {
     // Start with battle animation
     setTimeout(() => {
-      setBattleComplete(true)
+      setBattleComplete(true);
 
-      // If good score, trigger confetti
-      if (percentage >= 70 && confettiRef.current) {
-        const rect = confettiRef.current.getBoundingClientRect()
-        const x = rect.left + rect.width / 2
-        const y = rect.top + rect.height / 2
+      // If good score and not muted, trigger confetti
+      if (percentage >= 70 && confettiRef.current && !isMuted) {
+        const rect = confettiRef.current.getBoundingClientRect();
+        const x = rect.left + rect.width / 2;
+        const y = rect.top + rect.height / 2;
 
         confetti({
           particleCount: 150,
@@ -38,34 +46,36 @@ export default function QuizResults({ score, totalQuestions, percentage, onRetry
           },
           colors: ["#4ade80", "#22c55e", "#16a34a"],
           startVelocity: 45,
-        })
+        });
       }
-    }, 3000)
-  }, [percentage])
+    }, 3000);
+  }, [percentage, isMuted]);
 
   const getResultMessage = () => {
-    if (percentage >= 90) return "Excellent!"
-    if (percentage >= 70) return "Great job!"
-    if (percentage >= 50) return "Good effort!"
-    return "Keep practicing!"
-  }
+    if (percentage >= 90) return "Excellent!";
+    if (percentage >= 70) return "Great job!";
+    if (percentage >= 50) return "Good effort!";
+    return "Keep practicing!";
+  };
 
   const getResultColor = () => {
-    if (percentage >= 70) return "#4ade80" // green
-    if (percentage >= 50) return "#facc15" // yellow
-    return "#f87171" // red
-  }
+    if (percentage >= 70) return "#4ade80"; // green
+    if (percentage >= 50) return "#facc15"; // yellow
+    return "#f87171"; // red
+  };
 
   // Background color based on score
   const getBackgroundColor = () => {
-    if (percentage >= 70) return "bg-gradient-to-br from-green-100 to-green-50"
-    if (percentage < 40) return "bg-gradient-to-br from-red-100 to-red-50"
-    return "bg-gradient-to-br from-yellow-100 to-yellow-50"
-  }
+    if (percentage >= 70) return "bg-gradient-to-br from-green-100 to-green-50";
+    if (percentage < 40) return "bg-gradient-to-br from-red-100 to-red-50";
+    return "bg-gradient-to-br from-yellow-100 to-yellow-50";
+  };
 
   return (
     <motion.div
-      className={`flex flex-col items-center py-6 relative rounded-3xl ${battleComplete ? getBackgroundColor() : ""}`}
+      className={`flex flex-col items-center py-6 relative rounded-3xl ${
+        battleComplete ? getBackgroundColor() : ""
+      }`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -85,9 +95,27 @@ export default function QuizResults({ score, totalQuestions, percentage, onRetry
           animate={
             battleComplete
               ? percentage < 40
-                ? { x: "0%", y: "0%", width: "200vw", height: "200vh", backgroundColor: "rgba(239, 68, 68, 0.15)" }
-                : { x: "-100%", y: "100%", width: "10px", height: "10px", backgroundColor: "rgba(239, 68, 68, 0)" }
-              : { x: "0%", y: "0%", width: "50vw", height: "100%", backgroundColor: "rgba(239, 68, 68, 0.3)" }
+                ? {
+                    x: "0%",
+                    y: "0%",
+                    width: "200vw",
+                    height: "200vh",
+                    backgroundColor: "rgba(239, 68, 68, 0.15)",
+                  }
+                : {
+                    x: "-100%",
+                    y: "100%",
+                    width: "10px",
+                    height: "10px",
+                    backgroundColor: "rgba(239, 68, 68, 0)",
+                  }
+              : {
+                  x: "0%",
+                  y: "0%",
+                  width: "50vw",
+                  height: "100%",
+                  backgroundColor: "rgba(239, 68, 68, 0.3)",
+                }
           }
           transition={{ duration: 2, ease: "easeInOut" }}
         />
@@ -105,9 +133,27 @@ export default function QuizResults({ score, totalQuestions, percentage, onRetry
           animate={
             battleComplete
               ? percentage >= 70
-                ? { x: "0%", y: "0%", width: "200vw", height: "200vh", backgroundColor: "rgba(34, 197, 94, 0.15)" }
-                : { x: "200%", y: "100%", width: "10px", height: "10px", backgroundColor: "rgba(34, 197, 94, 0)" }
-              : { x: "50%", y: "0%", width: "50vw", height: "100%", backgroundColor: "rgba(34, 197, 94, 0.3)" }
+                ? {
+                    x: "0%",
+                    y: "0%",
+                    width: "200vw",
+                    height: "200vh",
+                    backgroundColor: "rgba(34, 197, 94, 0.15)",
+                  }
+                : {
+                    x: "200%",
+                    y: "100%",
+                    width: "10px",
+                    height: "10px",
+                    backgroundColor: "rgba(34, 197, 94, 0)",
+                  }
+              : {
+                  x: "50%",
+                  y: "0%",
+                  width: "50vw",
+                  height: "100%",
+                  backgroundColor: "rgba(34, 197, 94, 0.3)",
+                }
           }
           transition={{ duration: 2, ease: "easeInOut" }}
         />
@@ -181,5 +227,5 @@ export default function QuizResults({ score, totalQuestions, percentage, onRetry
         </motion.button>
       </div>
     </motion.div>
-  )
+  );
 }
