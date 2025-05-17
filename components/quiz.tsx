@@ -8,6 +8,7 @@ import QuizResults from "@/components/quiz-results";
 import ProgressBar from "@/components/progress-bar";
 import Timer from "@/components/timer";
 import MuteButton from "@/components/mute-button";
+import ElapsedTimer from "@/components/elapsed-timer";
 
 interface QuizProps {
   weekData: Assignment;
@@ -26,6 +27,12 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
   const [timerActive, setTimerActive] = useState(true);
   const [isMuted, setIsMuted] = useState(false);
 
+  // Timing data for quiz statistics
+  const [quizStartTime, setQuizStartTime] = useState<number>(0);
+  const [quizEndTime, setQuizEndTime] = useState<number>(0);
+  const [questionStartTime, setQuestionStartTime] = useState<number>(0);
+  const [questionTimes, setQuestionTimes] = useState<number[]>([]);
+
   const correctAudioRef = useRef<HTMLAudioElement | null>(null);
   const incorrectAudioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -41,11 +48,15 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
     return shuffled;
   };
 
-  // Initialize with shuffled questions
+  // Initialize with shuffled questions and start the quiz timer
   useEffect(() => {
     setShuffledQuestions(shuffleArray(weekData.questions));
     correctAudioRef.current = new Audio("/correct.mp3");
     incorrectAudioRef.current = new Audio("/incorrect.mp3");
+
+    // Start the quiz timer
+    setQuizStartTime(Date.now());
+    setQuestionStartTime(Date.now());
 
     return () => {
       if (correctAudioRef.current) {
@@ -87,7 +98,17 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
   useEffect(() => {
     setTimeLeft(20);
     setTimerActive(true);
+
+    // If not the first question, record the time taken for the previous question
+    if (currentQuestionIndex > 0 || questionTimes.length > 0) {
+      setQuestionStartTime(Date.now());
+    }
   }, [currentQuestionIndex]);
+
+  const recordQuestionTime = () => {
+    const timeSpent = (Date.now() - questionStartTime) / 1000; // Convert to seconds
+    setQuestionTimes((prev) => [...prev, timeSpent]);
+  };
 
   const handleTimeUp = () => {
     if (isAnswered) return;
@@ -95,6 +116,9 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
     setIsAnswered(true);
     setIsCorrect(false);
     document.body.classList.add("incorrect-answer");
+
+    // Record the time spent on this question
+    recordQuestionTime();
 
     if (!isMuted) {
       incorrectAudioRef.current?.play();
@@ -114,6 +138,7 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
         setSelectedOption(null);
         setIsCorrect(null);
       } else {
+        setQuizEndTime(Date.now());
         setShowResults(true);
       }
     }, 1500);
@@ -125,6 +150,9 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
     setTimerActive(false);
     setSelectedOption(optionIndex);
     setIsAnswered(true);
+
+    // Record the time spent on this question
+    recordQuestionTime();
 
     const correct = optionIndex === currentQuestion.correctAnswer;
     setIsCorrect(correct);
@@ -158,6 +186,8 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
         setSelectedOption(null);
         setIsCorrect(null);
       } else {
+        // Record the end time of the quiz
+        setQuizEndTime(Date.now());
         setShowResults(true);
       }
     }, 1500);
@@ -175,6 +205,12 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
     setTimeLeft(20);
     setTimerActive(true);
     document.body.classList.remove("correct-answer", "incorrect-answer");
+
+    // Reset timing data
+    setQuizStartTime(Date.now());
+    setQuestionStartTime(Date.now());
+    setQuizEndTime(0);
+    setQuestionTimes([]);
   };
 
   const calculateScore = () => {
@@ -202,6 +238,16 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
   const score = calculateScore();
   const percentage = Math.round((score / totalQuestions) * 100);
 
+  // Calculate total quiz time in seconds
+  const totalQuizTime = quizEndTime ? (quizEndTime - quizStartTime) / 1000 : 0;
+
+  // Calculate average time per question
+  const averageQuestionTime =
+    questionTimes.length > 0
+      ? questionTimes.reduce((sum, time) => sum + time, 0) /
+        questionTimes.length
+      : 0;
+
   if (!currentQuestion && !showResults) {
     return <div>Loading...</div>;
   }
@@ -212,11 +258,10 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
         <h2 className="text-xl md:text-2xl font-bold text-gray-800">
           {weekData.title}
         </h2>
-        <MuteButton
-          isMuted={isMuted}
-          onToggleMute={handleToggleMute}
-          className="absolute top-6 right-6"
-        />
+        <div className="flex items-center gap-4 absolute top-6 right-6">
+          {!showResults && <ElapsedTimer startTime={quizStartTime} />}
+          <MuteButton isMuted={isMuted} onToggleMute={handleToggleMute} />
+        </div>
       </div>
 
       {!showResults ? (
@@ -262,6 +307,9 @@ export default function Quiz({ weekData, onBackToWeeks }: QuizProps) {
           percentage={percentage}
           onRetry={handleRetry}
           onBackToWeeks={onBackToWeeks}
+          isMuted={isMuted}
+          totalTime={totalQuizTime}
+          averageTime={averageQuestionTime}
         />
       )}
     </div>

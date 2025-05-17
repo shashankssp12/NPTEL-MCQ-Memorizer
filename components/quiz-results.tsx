@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import QuizStopwatch from "./quiz-stopwatch";
 
 interface QuizResultsProps {
   score: number;
@@ -13,6 +14,8 @@ interface QuizResultsProps {
   onRetry: () => void;
   onBackToWeeks: () => void;
   isMuted?: boolean;
+  totalTime?: number;
+  averageTime?: number;
 }
 
 export default function QuizResults({
@@ -22,6 +25,8 @@ export default function QuizResults({
   onRetry,
   onBackToWeeks,
   isMuted = false,
+  totalTime = 0,
+  averageTime = 0,
 }: QuizResultsProps) {
   const confettiRef = useRef<HTMLDivElement>(null);
   const [battleComplete, setBattleComplete] = useState(false);
@@ -201,6 +206,11 @@ export default function QuizResults({
       >
         You scored {score} out of {totalQuestions} questions correctly.
       </motion.p>
+
+      {/* Display quiz timing statistics */}
+      {totalTime > 0 && (
+        <QuizStopwatch totalTime={totalTime} averageTime={averageTime} />
+      )}
 
       <div className="flex flex-col sm:flex-row gap-4">
         <motion.button
