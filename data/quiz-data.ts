@@ -1,2544 +1,2629 @@
-import type { Assignment } from "@/types"
+import type { Assignment } from "@/types";
 
 export const quizData: Assignment[] = [
+  {
+    id: "table-12-quiz",
+    title: "Multiplication Table of 12 - Quiz",
+    questions: [
+      {
+        id: "12q1",
+        text: "What is 12 × 4?",
+        options: ["36", "48", "52", "44"],
+        correctAnswer: 1,
+      },
+      {
+        id: "12q2",
+        text: "What is 12 × 7?",
+        options: ["72", "74", "84", "96"],
+        correctAnswer: 2,
+      },
+      {
+        id: "12q3",
+        text: "What is 12 × 3?",
+        options: ["24", "36", "42", "48"],
+        correctAnswer: 1,
+      },
+      {
+        id: "12q4",
+        text: "What is 12 × 9?",
+        options: ["98", "108", "118", "96"],
+        correctAnswer: 1,
+      },
+      {
+        id: "12q5",
+        text: "What is 12 × 6?",
+        options: ["60", "62", "72", "76"],
+        correctAnswer: 2,
+      },
+      {
+        id: "12q6",
+        text: "What is 12 × 10?",
+        options: ["110", "120", "130", "140"],
+        correctAnswer: 1,
+      },
+      {
+        id: "12q7",
+        text: "What is 12 × 5?",
+        options: ["50", "55", "60", "65"],
+        correctAnswer: 2,
+      },
+      {
+        id: "12q8",
+        text: "What is 12 × 2?",
+        options: ["22", "24", "26", "28"],
+        correctAnswer: 1,
+      },
+      {
+        id: "12q9",
+        text: "What is 12 × 8?",
+        options: ["86", "96", "98", "106"],
+        correctAnswer: 1,
+      },
+      {
+        id: "12q10",
+        text: "What is 12 × 1?",
+        options: ["10", "11", "12", "13"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-13-quiz",
+    title: "Multiplication Table of 13 - Quiz",
+    questions: [
+      {
+        id: "13q1",
+        text: "What is 13 × 5?",
+        options: ["55", "60", "65", "70"],
+        correctAnswer: 2,
+      },
+      {
+        id: "13q2",
+        text: "What is 13 × 8?",
+        options: ["94", "104", "114", "124"],
+        correctAnswer: 1,
+      },
+      {
+        id: "13q3",
+        text: "What is 13 × 2?",
+        options: ["23", "24", "26", "28"],
+        correctAnswer: 2,
+      },
+      {
+        id: "13q4",
+        text: "What is 13 × 7?",
+        options: ["81", "91", "101", "111"],
+        correctAnswer: 1,
+      },
+      {
+        id: "13q5",
+        text: "What is 13 × 4?",
+        options: ["42", "48", "52", "56"],
+        correctAnswer: 2,
+      },
+      {
+        id: "13q6",
+        text: "What is 13 × 10?",
+        options: ["120", "130", "140", "150"],
+        correctAnswer: 1,
+      },
+      {
+        id: "13q7",
+        text: "What is 13 × 3?",
+        options: ["29", "36", "39", "43"],
+        correctAnswer: 2,
+      },
+      {
+        id: "13q8",
+        text: "What is 13 × 9?",
+        options: ["107", "117", "127", "137"],
+        correctAnswer: 1,
+      },
+      {
+        id: "13q9",
+        text: "What is 13 × 6?",
+        options: ["68", "76", "78", "86"],
+        correctAnswer: 2,
+      },
+      {
+        id: "13q10",
+        text: "What is 13 × 1?",
+        options: ["11", "12", "13", "14"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-14-quiz",
+    title: "Multiplication Table of 14 - Quiz",
+    questions: [
+      {
+        id: "14q1",
+        text: "What is 14 × 3?",
+        options: ["32", "36", "42", "48"],
+        correctAnswer: 2,
+      },
+      {
+        id: "14q2",
+        text: "What is 14 × 7?",
+        options: ["88", "98", "108", "118"],
+        correctAnswer: 1,
+      },
+      {
+        id: "14q3",
+        text: "What is 14 × 5?",
+        options: ["60", "65", "70", "75"],
+        correctAnswer: 2,
+      },
+      {
+        id: "14q4",
+        text: "What is 14 × 9?",
+        options: ["106", "116", "126", "136"],
+        correctAnswer: 2,
+      },
+      {
+        id: "14q5",
+        text: "What is 14 × 2?",
+        options: ["24", "26", "28", "30"],
+        correctAnswer: 2,
+      },
+      {
+        id: "14q6",
+        text: "What is 14 × 10?",
+        options: ["130", "140", "150", "160"],
+        correctAnswer: 1,
+      },
+      {
+        id: "14q7",
+        text: "What is 14 × 6?",
+        options: ["74", "84", "94", "104"],
+        correctAnswer: 1,
+      },
+      {
+        id: "14q8",
+        text: "What is 14 × 4?",
+        options: ["46", "56", "66", "76"],
+        correctAnswer: 1,
+      },
+      {
+        id: "14q9",
+        text: "What is 14 × 8?",
+        options: ["102", "112", "122", "132"],
+        correctAnswer: 1,
+      },
+      {
+        id: "14q10",
+        text: "What is 14 × 1?",
+        options: ["12", "13", "14", "15"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-15-quiz",
+    title: "Multiplication Table of 15 - Quiz",
+    questions: [
+      {
+        id: "15q1",
+        text: "What is 15 × 6?",
+        options: ["80", "85", "90", "95"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q2",
+        text: "What is 15 × 9?",
+        options: ["125", "130", "135", "140"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q3",
+        text: "What is 15 × 3?",
+        options: ["35", "40", "45", "50"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q4",
+        text: "What is 15 × 8?",
+        options: ["110", "120", "130", "140"],
+        correctAnswer: 1,
+      },
+      {
+        id: "15q5",
+        text: "What is 15 × 4?",
+        options: ["50", "55", "60", "65"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q6",
+        text: "What is 15 × 7?",
+        options: ["95", "100", "105", "110"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q7",
+        text: "What is 15 × 2?",
+        options: ["25", "30", "35", "40"],
+        correctAnswer: 1,
+      },
+      {
+        id: "15q8",
+        text: "What is 15 × 10?",
+        options: ["140", "145", "150", "155"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q9",
+        text: "What is 15 × 5?",
+        options: ["65", "70", "75", "80"],
+        correctAnswer: 2,
+      },
+      {
+        id: "15q10",
+        text: "What is 15 × 1?",
+        options: ["10", "12", "15", "18"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-16-quiz",
+    title: "Multiplication Table of 16 - Quiz",
+    questions: [
+      {
+        id: "16q1",
+        text: "What is 16 × 4?",
+        options: ["54", "64", "74", "84"],
+        correctAnswer: 1,
+      },
+      {
+        id: "16q2",
+        text: "What is 16 × 7?",
+        options: ["102", "112", "122", "132"],
+        correctAnswer: 1,
+      },
+      {
+        id: "16q3",
+        text: "What is 16 × 2?",
+        options: ["28", "30", "32", "34"],
+        correctAnswer: 2,
+      },
+      {
+        id: "16q4",
+        text: "What is 16 × 9?",
+        options: ["124", "134", "144", "154"],
+        correctAnswer: 2,
+      },
+      {
+        id: "16q5",
+        text: "What is 16 × 6?",
+        options: ["86", "96", "106", "116"],
+        correctAnswer: 1,
+      },
+      {
+        id: "16q6",
+        text: "What is 16 × 8?",
+        options: ["118", "128", "138", "148"],
+        correctAnswer: 1,
+      },
+      {
+        id: "16q7",
+        text: "What is 16 × 3?",
+        options: ["38", "48", "58", "68"],
+        correctAnswer: 1,
+      },
+      {
+        id: "16q8",
+        text: "What is 16 × 10?",
+        options: ["140", "150", "160", "170"],
+        correctAnswer: 2,
+      },
+      {
+        id: "16q9",
+        text: "What is 16 × 5?",
+        options: ["70", "75", "80", "85"],
+        correctAnswer: 2,
+      },
+      {
+        id: "16q10",
+        text: "What is 16 × 1?",
+        options: ["14", "15", "16", "17"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-17-quiz",
+    title: "Multiplication Table of 17 - Quiz",
+    questions: [
+      {
+        id: "17q1",
+        text: "What is 17 × 5?",
+        options: ["75", "80", "85", "90"],
+        correctAnswer: 2,
+      },
+      {
+        id: "17q2",
+        text: "What is 17 × 9?",
+        options: ["143", "153", "163", "173"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q3",
+        text: "What is 17 × 3?",
+        options: ["41", "51", "61", "71"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q4",
+        text: "What is 17 × 7?",
+        options: ["109", "119", "129", "139"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q5",
+        text: "What is 17 × 2?",
+        options: ["24", "34", "44", "54"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q6",
+        text: "What is 17 × 10?",
+        options: ["160", "170", "180", "190"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q7",
+        text: "What is 17 × 6?",
+        options: ["82", "92", "102", "112"],
+        correctAnswer: 2,
+      },
+      {
+        id: "17q8",
+        text: "What is 17 × 4?",
+        options: ["58", "68", "78", "88"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q9",
+        text: "What is 17 × 8?",
+        options: ["126", "136", "146", "156"],
+        correctAnswer: 1,
+      },
+      {
+        id: "17q10",
+        text: "What is 17 × 1?",
+        options: ["15", "16", "17", "18"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-18-quiz",
+    title: "Multiplication Table of 18 - Quiz",
+    questions: [
+      {
+        id: "18q1",
+        text: "What is 18 × 6?",
+        options: ["98", "108", "118", "128"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q2",
+        text: "What is 18 × 3?",
+        options: ["44", "54", "64", "74"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q3",
+        text: "What is 18 × 9?",
+        options: ["152", "162", "172", "182"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q4",
+        text: "What is 18 × 4?",
+        options: ["52", "62", "72", "82"],
+        correctAnswer: 2,
+      },
+      {
+        id: "18q5",
+        text: "What is 18 × 7?",
+        options: ["116", "126", "136", "146"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q6",
+        text: "What is 18 × 2?",
+        options: ["26", "36", "46", "56"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q7",
+        text: "What is 18 × 8?",
+        options: ["134", "144", "154", "164"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q8",
+        text: "What is 18 × 5?",
+        options: ["80", "90", "100", "110"],
+        correctAnswer: 1,
+      },
+      {
+        id: "18q9",
+        text: "What is 18 × 10?",
+        options: ["160", "170", "180", "190"],
+        correctAnswer: 2,
+      },
+      {
+        id: "18q10",
+        text: "What is 18 × 1?",
+        options: ["16", "17", "18", "19"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "table-19-quiz",
+    title: "Multiplication Table of 19 - Quiz",
+    questions: [
+      {
+        id: "19q1",
+        text: "What is 19 × 3?",
+        options: ["47", "57", "67", "77"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q2",
+        text: "What is 19 × 7?",
+        options: ["123", "133", "143", "153"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q3",
+        text: "What is 19 × 5?",
+        options: ["85", "95", "105", "115"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q4",
+        text: "What is 19 × 9?",
+        options: ["151", "161", "171", "181"],
+        correctAnswer: 2,
+      },
+      {
+        id: "19q5",
+        text: "What is 19 × 2?",
+        options: ["28", "38", "48", "58"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q6",
+        text: "What is 19 × 6?",
+        options: ["104", "114", "124", "134"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q7",
+        text: "What is 19 × 4?",
+        options: ["66", "76", "86", "96"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q8",
+        text: "What is 19 × 8?",
+        options: ["142", "152", "162", "172"],
+        correctAnswer: 1,
+      },
+      {
+        id: "19q9",
+        text: "What is 19 × 10?",
+        options: ["170", "180", "190", "200"],
+        correctAnswer: 2,
+      },
+      {
+        id: "19q10",
+        text: "What is 19 × 1?",
+        options: ["17", "18", "19", "20"],
+        correctAnswer: 2,
+      },
+    ],
+  },
 
   {
-    "id": "set-1",
-    "title": "English Conditionals - Set 1",
-    "questions": [
+    id: "set-1",
+    title: "English Conditionals - Set 1",
+    questions: [
       {
-        "id": "ec1q1",
-        "text": "If I ___ time, I would help you.",
-        "options": [
-          "had",
-          "have",
-          "will have",
-          "has"
-        ],
-        "correctAnswer": 0
+        id: "ec1q1",
+        text: "If I ___ time, I would help you.",
+        options: ["had", "have", "will have", "has"],
+        correctAnswer: 0,
       },
       {
-        "id": "ec1q2",
-        "text": "Had she studied harder, she ___ passed.",
-        "options": [
-          "will have",
-          "would have",
-          "can",
-          "has"
-        ],
-        "correctAnswer": 1
+        id: "ec1q2",
+        text: "Had she studied harder, she ___ passed.",
+        options: ["will have", "would have", "can", "has"],
+        correctAnswer: 1,
       },
       {
-        "id": "ec1q3",
-        "text": "Which sentence uses a zero conditional correctly?",
-        "options": [
+        id: "ec1q3",
+        text: "Which sentence uses a zero conditional correctly?",
+        options: [
           "If it rains, the grass gets wet.",
           "If it rained, the grass gets wet.",
           "If it rains, the grass would get wet.",
-          "If it rains, the grass had gotten wet."
+          "If it rains, the grass had gotten wet.",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "ec1q4",
-        "text": "If he ___ more polite, people would like him.",
-        "options": [
-          "is",
-          "was",
-          "were",
-          "will be"
-        ],
-        "correctAnswer": 2
+        id: "ec1q4",
+        text: "If he ___ more polite, people would like him.",
+        options: ["is", "was", "were", "will be"],
+        correctAnswer: 2,
       },
       {
-        "id": "ec1q5",
-        "text": "Choose the correct third conditional sentence.",
-        "options": [
+        id: "ec1q5",
+        text: "Choose the correct third conditional sentence.",
+        options: [
           "If she studies, she would have passed.",
           "If she had studied, she would have passed.",
           "If she studied, she would have pass.",
-          "If she had studied, she will pass."
+          "If she had studied, she will pass.",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "ec1q6",
-        "text": "If I ___ you, I wouldn’t do that.",
-        "options": [
-          "am",
-          "were",
-          "was",
-          "be"
-        ],
-        "correctAnswer": 1
-      },
-       {
-        "id": "ec1q7",
-        "text": "If you heat water to 100°C, it ___.",
-        "options": [
-          "will boil",
-          "boils",
-          "would boil",
-          "boiled"
-        ],
-        "correctAnswer": 1
-      },
-       {
-        "id": "ec1q8",
-        "text": "What is the correct conditional type: \"If I win, I’ll buy a car.\"",
-        "options": [
-          "Zero",
-          "First",
-          "Second",
-          "Third"
-        ],
-        "correctAnswer": 1
-      },
-       {
-        "id": "ec1q9",
-        "text": "I wouldn’t have been late if I ___ up earlier.",
-        "options": [
-          "get",
-          "got",
-          "had gotten",
-          "have gotten"
-        ],
-        "correctAnswer": 2
-      },
-       {
-        "id": "ec1q10",
-        "text": "If he calls, I ___ him the message.",
-        "options": [
-          "give",
-          "gave",
-          "will give",
-          "would give"
-        ],
-        "correctAnswer": 2
+        id: "ec1q6",
+        text: "If I ___ you, I wouldn’t do that.",
+        options: ["am", "were", "was", "be"],
+        correctAnswer: 1,
       },
       {
-        "id": "ec1q11",
-        "text": "If you had listened, you ___ the answer.",
-        "options": [
-          "knew",
-          "would have known",
-          "know",
-          "will know"
-        ],
-        "correctAnswer": 1
+        id: "ec1q7",
+        text: "If you heat water to 100°C, it ___.",
+        options: ["will boil", "boils", "would boil", "boiled"],
+        correctAnswer: 1,
       },
       {
-        "id": "ec1q12",
-        "text": "If I were rich, I ___ around the world.",
-        "options": [
-          "will travel",
-          "would travel",
-          "travel",
-          "had traveled"
-        ],
-        "correctAnswer": 1
+        id: "ec1q8",
+        text: 'What is the correct conditional type: "If I win, I’ll buy a car."',
+        options: ["Zero", "First", "Second", "Third"],
+        correctAnswer: 1,
       },
       {
-        "id": "ec1q13",
-        "text": "If it rains tomorrow, we ___ the match.",
-        "options": [
-          "postpone",
-          "will postpone",
-          "postponed",
-          "had postponed"
-        ],
-        "correctAnswer": 1
+        id: "ec1q9",
+        text: "I wouldn’t have been late if I ___ up earlier.",
+        options: ["get", "got", "had gotten", "have gotten"],
+        correctAnswer: 2,
       },
       {
-        "id": "ec1q14",
-        "text": "Choose the correct conditional form: \"If you had worked hard, you ___ succeeded.\"",
-        "options": [
-          "would have",
-          "will have",
-          "would",
-          "had"
-        ],
-        "correctAnswer": 0
+        id: "ec1q10",
+        text: "If he calls, I ___ him the message.",
+        options: ["give", "gave", "will give", "would give"],
+        correctAnswer: 2,
       },
       {
-        "id": "ec1q15",
-        "text": "Which is a second conditional sentence?",
-        "options": [
+        id: "ec1q11",
+        text: "If you had listened, you ___ the answer.",
+        options: ["knew", "would have known", "know", "will know"],
+        correctAnswer: 1,
+      },
+      {
+        id: "ec1q12",
+        text: "If I were rich, I ___ around the world.",
+        options: ["will travel", "would travel", "travel", "had traveled"],
+        correctAnswer: 1,
+      },
+      {
+        id: "ec1q13",
+        text: "If it rains tomorrow, we ___ the match.",
+        options: ["postpone", "will postpone", "postponed", "had postponed"],
+        correctAnswer: 1,
+      },
+      {
+        id: "ec1q14",
+        text: 'Choose the correct conditional form: "If you had worked hard, you ___ succeeded."',
+        options: ["would have", "will have", "would", "had"],
+        correctAnswer: 0,
+      },
+      {
+        id: "ec1q15",
+        text: "Which is a second conditional sentence?",
+        options: [
           "If I see him, I’ll tell him.",
           "If I were you, I’d be careful.",
           "If it rains, the flowers grow.",
-          "If you had come, you would have met him."
+          "If you had come, you would have met him.",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-         "id": "ec1q16",
-        "text": "If we ___ a map, we wouldn’t have gotten lost.",
-        "options": [
-          "had",
-          "have",
-          "had had",
-          "has had"
-        ],
-        "correctAnswer": 2
+        id: "ec1q16",
+        text: "If we ___ a map, we wouldn’t have gotten lost.",
+        options: ["had", "have", "had had", "has had"],
+        correctAnswer: 2,
       },
       {
-         "id": "ec1q17",
-        "text": "If she ___ faster, she would win the race.",
-        "options": [
-          "runs",
-          "run",
-          "ran",
-          "running"
-        ],
-        "correctAnswer": 2
+        id: "ec1q17",
+        text: "If she ___ faster, she would win the race.",
+        options: ["runs", "run", "ran", "running"],
+        correctAnswer: 2,
       },
       {
-         "id": "ec1q18",
-        "text": "You ___ burn yourself if you touch that!",
-        "options": [
-          "would",
-          "will",
-          "can",
-          "have to"
-        ],
-        "correctAnswer": 1
+        id: "ec1q18",
+        text: "You ___ burn yourself if you touch that!",
+        options: ["would", "will", "can", "have to"],
+        correctAnswer: 1,
       },
       {
-         "id": "ec1q19",
-        "text": "If you don’t water the plants, they ___.",
-        "options": [
-          "dies",
-          "died",
-          "die",
-          "will die"
-        ],
-        "correctAnswer": 3
+        id: "ec1q19",
+        text: "If you don’t water the plants, they ___.",
+        options: ["dies", "died", "die", "will die"],
+        correctAnswer: 3,
       },
       {
-         "id": "ec1q20",
-        "text": "What type of conditional is this: \"If he had left earlier, he wouldn’t have missed the bus.\"",
-        "options": [
-          "First",
-          "Zero",
-          "Second",
-          "Third"
-        ],
-        "correctAnswer": 3
-      }
-    ]
+        id: "ec1q20",
+        text: 'What type of conditional is this: "If he had left earlier, he wouldn’t have missed the bus."',
+        options: ["First", "Zero", "Second", "Third"],
+        correctAnswer: 3,
+      },
+    ],
   },
   {
-    "id": "set-2",
-    "title": "English Tenses - Set 2",
-    "questions": [
+    id: "set-2",
+    title: "English Tenses - Set 2",
+    questions: [
       {
-        "id": "et2q1",
-        "text": "By the time you arrive, we ___ eating.",
-        "options": [
+        id: "et2q1",
+        text: "By the time you arrive, we ___ eating.",
+        options: [
           "finished",
           "have finished",
           "will have finished",
-          "had finished"
+          "had finished",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "et2q2",
-        "text": "She ___ here since 2010.",
-        "options": [
-          "is living",
-          "has lived",
-          "lived",
-          "lives"
-        ],
-        "correctAnswer": 1
+        id: "et2q2",
+        text: "She ___ here since 2010.",
+        options: ["is living", "has lived", "lived", "lives"],
+        correctAnswer: 1,
       },
       {
-        "id": "et2q3",
-        "text": "Which sentence is in past perfect continuous?",
-        "options": [
+        id: "et2q3",
+        text: "Which sentence is in past perfect continuous?",
+        options: [
           "She had been waiting for hours.",
           "She was waiting for hours.",
           "She has waited for hours.",
-          "She is waiting for hours."
+          "She is waiting for hours.",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "et2q4",
-        "text": "The train ___ when we reached the station.",
-        "options": [
-          "leaves",
-          "left",
-          "had left",
-          "was left"
-        ],
-        "correctAnswer": 2
+        id: "et2q4",
+        text: "The train ___ when we reached the station.",
+        options: ["leaves", "left", "had left", "was left"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q5",
-        "text": "At 8 PM last night, I ___ dinner.",
-        "options": [
-          "eat",
-          "was eating",
-          "had eaten",
-          "eat"
-        ],
-        "correctAnswer": 2
+        id: "et2q5",
+        text: "At 8 PM last night, I ___ dinner.",
+        options: ["eat", "was eating", "had eaten", "eat"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q6",
-        "text": "I ___ him since he left the company.",
-        "options": [
-          "didn't see",
-          "don't see",
-          "haven't seen",
-          "hadn't seen"
-        ],
-        "correctAnswer": 2
+        id: "et2q6",
+        text: "I ___ him since he left the company.",
+        options: ["didn't see", "don't see", "haven't seen", "hadn't seen"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q7",
-        "text": "We ___ to Paris every summer.",
-        "options": [
-          "go",
-          "goes",
-          "gone",
-          "going"
-        ],
-        "correctAnswer": 0
+        id: "et2q7",
+        text: "We ___ to Paris every summer.",
+        options: ["go", "goes", "gone", "going"],
+        correctAnswer: 0,
       },
       {
-        "id": "et2q8",
-        "text": "She ___ her work by 5 PM yesterday.",
-        "options": [
-          "has finished",
-          "had finished",
-          "will finish",
-          "finishes"
-        ],
-        "correctAnswer": 1
+        id: "et2q8",
+        text: "She ___ her work by 5 PM yesterday.",
+        options: ["has finished", "had finished", "will finish", "finishes"],
+        correctAnswer: 1,
       },
       {
-        "id": "et2q9",
-        "text": "I ___ to the gym lately.",
-        "options": [
+        id: "et2q9",
+        text: "I ___ to the gym lately.",
+        options: [
           "don't go",
           "didn't go",
           "haven't been going",
-          "wasn't going"
+          "wasn't going",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "et2q10",
-        "text": "When he ___ the room, everyone looked at him.",
-        "options": [
-          "entered",
-          "had entered",
-          "enters",
-          "enter"
-        ],
-        "correctAnswer": 0
+        id: "et2q10",
+        text: "When he ___ the room, everyone looked at him.",
+        options: ["entered", "had entered", "enters", "enter"],
+        correctAnswer: 0,
       },
       {
-        "id": "et2q11",
-        "text": "They ___ a new house soon.",
-        "options": [
-          "bought",
-          "have bought",
-          "will buy",
-          "buying"
-        ],
-        "correctAnswer": 2
+        id: "et2q11",
+        text: "They ___ a new house soon.",
+        options: ["bought", "have bought", "will buy", "buying"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q12",
-        "text": "He ___ TV when I arrived.",
-        "options": [
-          "watches",
-          "watched",
-          "was watching",
-          "is watching"
-        ],
-        "correctAnswer": 2
+        id: "et2q12",
+        text: "He ___ TV when I arrived.",
+        options: ["watches", "watched", "was watching", "is watching"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q13",
-        "text": "We ___ for you when you called.",
-        "options": [
-          "waited",
-          "had waited",
-          "were waiting",
-          "are waiting"
-        ],
-        "correctAnswer": 2
+        id: "et2q13",
+        text: "We ___ for you when you called.",
+        options: ["waited", "had waited", "were waiting", "are waiting"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q14",
-        "text": "By next year, she ___ her degree.",
-        "options": [
-          "earns",
-          "will have earned",
-          "has earned",
-          "earned"
-        ],
-        "correctAnswer": 2
+        id: "et2q14",
+        text: "By next year, she ___ her degree.",
+        options: ["earns", "will have earned", "has earned", "earned"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q15",
-        "text": "I think it ___ soon.",
-        "options": [
-          "rained",
-          "rains",
-          "will rain",
-          "rain"
-        ],
-        "correctAnswer": 2
+        id: "et2q15",
+        text: "I think it ___ soon.",
+        options: ["rained", "rains", "will rain", "rain"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q16",
-        "text": "How long ___ they lived here?",
-        "options": [
-          "did",
-          "do",
-          "have",
-          "have been"
-        ],
-        "correctAnswer": 3
+        id: "et2q16",
+        text: "How long ___ they lived here?",
+        options: ["did", "do", "have", "have been"],
+        correctAnswer: 3,
       },
       {
-        "id": "et2q17",
-        "text": "He usually ___ up at 6 AM.",
-        "options": [
-          "gets",
-          "get",
-          "got",
-          "getting"
-        ],
-        "correctAnswer": 0
+        id: "et2q17",
+        text: "He usually ___ up at 6 AM.",
+        options: ["gets", "get", "got", "getting"],
+        correctAnswer: 0,
       },
       {
-        "id": "et2q18",
-        "text": "I ___ dinner before the guests arrived.",
-        "options": [
-          "cooked",
-          "have cooked",
-          "had cooked",
-          "was cooking"
-        ],
-        "correctAnswer": 2
+        id: "et2q18",
+        text: "I ___ dinner before the guests arrived.",
+        options: ["cooked", "have cooked", "had cooked", "was cooking"],
+        correctAnswer: 2,
       },
       {
-        "id": "et2q19",
-        "text": "They ___ the movie when we got there.",
-        "options": [
-          "had started",
-          "started",
-          "start",
-          "were start"
-        ],
-        "correctAnswer": 0
+        id: "et2q19",
+        text: "They ___ the movie when we got there.",
+        options: ["had started", "started", "start", "were start"],
+        correctAnswer: 0,
       },
       {
-        "id": "et2q20",
-        "text": "She ___ to school when it started to rain.",
-        "options": [
-          "walks",
-          "was walking",
-          "walked",
-          "walk"
-        ],
-        "correctAnswer": 1
-      }
-    ]
+        id: "et2q20",
+        text: "She ___ to school when it started to rain.",
+        options: ["walks", "was walking", "walked", "walk"],
+        correctAnswer: 1,
+      },
+    ],
   },
   {
-    "id": "set-3",
-    "title": "Subject-Verb Agreement - Set 3",
-    "questions": [
+    id: "set-3",
+    title: "Subject-Verb Agreement - Set 3",
+    questions: [
       {
-        "id": "sv3q1",
-        "text": "Each of the boys ___ given a prize.",
-        "options": [
-          "were",
-          "are",
-          "is",
-          "have"
-        ],
-        "correctAnswer": 2
+        id: "sv3q1",
+        text: "Each of the boys ___ given a prize.",
+        options: ["were", "are", "is", "have"],
+        correctAnswer: 2,
       },
       {
-        "id": "sv3q2",
-        "text": "Neither of the answers ___ correct.",
-        "options": [
-          "are",
-          "were",
-          "is",
-          "be"
-        ],
-        "correctAnswer": 2
+        id: "sv3q2",
+        text: "Neither of the answers ___ correct.",
+        options: ["are", "were", "is", "be"],
+        correctAnswer: 2,
       },
       {
-        "id": "sv3q3",
-        "text": "One of my friends ___ going abroad.",
-        "options": [
-          "are",
-          "is",
-          "were",
-          "be"
-        ],
-        "correctAnswer": 1
+        id: "sv3q3",
+        text: "One of my friends ___ going abroad.",
+        options: ["are", "is", "were", "be"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q4",
-        "text": "The data ___ accurate.",
-        "options": [
-          "is",
-          "are",
-          "be",
-          "being"
-        ],
-        "correctAnswer": 1
+        id: "sv3q4",
+        text: "The data ___ accurate.",
+        options: ["is", "are", "be", "being"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q5",
-        "text": "Mathematics ___ my favorite subject.",
-        "options": [
-          "are",
-          "is",
-          "were",
-          "have"
-        ],
-        "correctAnswer": 1
+        id: "sv3q5",
+        text: "Mathematics ___ my favorite subject.",
+        options: ["are", "is", "were", "have"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q6",
-        "text": "Either the cat or the dogs ___ making noise.",
-        "options": [
-          "is",
-          "are",
-          "was",
-          "be"
-        ],
-        "correctAnswer": 1
+        id: "sv3q6",
+        text: "Either the cat or the dogs ___ making noise.",
+        options: ["is", "are", "was", "be"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q7",
-        "text": "The committee ___ divided in its decision.",
-        "options": [
-          "was",
-          "were",
-          "is",
-          "has"
-        ],
-        "correctAnswer": 1
+        id: "sv3q7",
+        text: "The committee ___ divided in its decision.",
+        options: ["was", "were", "is", "has"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q8",
-        "text": "Everyone ___ responsible for their actions.",
-        "options": [
-          "are",
-          "is",
-          "were",
-          "be"
-        ],
-        "correctAnswer": 1
+        id: "sv3q8",
+        text: "Everyone ___ responsible for their actions.",
+        options: ["are", "is", "were", "be"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q9",
-        "text": "The number of applicants ___ increasing.",
-        "options": [
-          "are",
-          "were",
-          "is",
-          "have"
-        ],
-        "correctAnswer": 2
+        id: "sv3q9",
+        text: "The number of applicants ___ increasing.",
+        options: ["are", "were", "is", "have"],
+        correctAnswer: 2,
       },
       {
-        "id": "sv3q10",
-        "text": "A bouquet of roses ___ on the table.",
-        "options": [
-          "are",
-          "is",
-          "were",
-          "have"
-        ],
-        "correctAnswer": 1
+        id: "sv3q10",
+        text: "A bouquet of roses ___ on the table.",
+        options: ["are", "is", "were", "have"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q11",
-        "text": "There ___ many reasons to be hopeful.",
-        "options": [
-          "is",
-          "are",
-          "has",
-          "was"
-        ],
-        "correctAnswer": 1
+        id: "sv3q11",
+        text: "There ___ many reasons to be hopeful.",
+        options: ["is", "are", "has", "was"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q12",
-        "text": "The jury ___ reached a verdict.",
-        "options": [
-          "have",
-          "has",
-          "is",
-          "be"
-        ],
-        "correctAnswer": 1
+        id: "sv3q12",
+        text: "The jury ___ reached a verdict.",
+        options: ["have", "has", "is", "be"],
+        correctAnswer: 1,
       },
       {
-        "id": "sv3q13",
-        "text": "Neither the teacher nor the students ___ ready.",
-        "options": [
-          "is",
-          "has",
-          "are",
-          "be"
-        ],
-        "correctAnswer": 2
+        id: "sv3q13",
+        text: "Neither the teacher nor the students ___ ready.",
+        options: ["is", "has", "are", "be"],
+        correctAnswer: 2,
       },
       {
-        "id": "sv3q14",
-        "text": "A pair of shoes ___ missing.",
-        "options": [
-          "are",
-          "is",
-          "were",
-          "be"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "sv3q15",
-      "text": "Each of the players ___ a trophy.",
-      "options": [
-        "get",
-        "gets",
-        "have got",
-        "got"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "sv3q16",
-      "text": "The news ___ shocking.",
-      "options": [
-        "are",
-        "were",
-        "is",
-        "have"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "sv3q17",
-      "text": "Either John or his brothers ___ coming.",
-      "options": [
-        "is",
-        "was",
-        "are",
-        "be"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "sv3q18",
-      "text": "The team ___ winning all its matches.",
-      "options": [
-        "are",
-        "is",
-        "be",
-        "were"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "sv3q19",
-      "text": "There ___ a cat and two dogs in the yard.",
-      "options": [
-        "is",
-        "are",
-        "be",
-        "was"
-      ],
-      "correctAnswer": 1
-    },
-     {
-      "id": "sv3q20",
-      "text": "Not only the teacher but also the students ___ tired.",
-      "options": [
-        "was",
-        "are",
-        "is",
-        "be"
-      ],
-      "correctAnswer": 1
-    }
-  ]
-},
-{
-  "id": "set-4",
-  "title": "English Modifiers - Set 4",
-  "questions": [
-    {
-      "id": "m4q1",
-      "text": "She served sandwiches to the children on paper plates.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q2",
-      "text": "Running quickly, the finish line was crossed by John.",
-      "options": [
-        "Correct",
-        "Dangling modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q3",
-      "text": "Which revision fixes the modifier issue: “Covered in syrup, she devoured the pancakes.”",
-      "options": [
-        "She devoured the pancakes, covered in syrup.",
-        "Covered in syrup, the pancakes were devoured by her.",
-        "She devoured the pancakes that were covered in syrup.",
-        "She, covered in syrup, devoured the pancakes."
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "m4q4",
-      "text": "Eager to impress the teacher, the homework was completed early.",
-      "options": [
-        "Correct",
-        "Dangling modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q5",
-      "text": "The man almost drove his kids to school every day.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q6",
-      "text": "She wore a red dress to the party that was made of silk.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q7",
-      "text": "After reading the original study, the article was unconvincing.",
-      "options": [
-        "Correct",
-        "Dangling modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q8",
-      "text": "He nearly spent $1,000 on a new computer.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q9",
-      "text": "To improve his results, the experiment was repeated.",
-      "options": [
-        "Correct",
-        "Dangling modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q10",
-      "text": "Walking down the street, the birds chirped loudly.",
-      "options": [
-        "Correct",
-        "Dangling modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q11",
-      "text": "She almost failed every class she took.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": "m4q12",
-      "text": "Covered in chocolate, the kids ate the cookies quickly.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q13",
-      "text": "He said on Friday he would be leaving.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "m4q14",
-      "text": "Only she told the truth.",
-      "options": [
-        "Correct",
-        "Misplaced modifier"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": "m4q15",
-      "text": "While driving to work, a deer suddenly appeared.",
-      "options": [
-        "Correct",
-        "Dangling modifier"
-      ],
-      "correctAnswer": 1
-    }
-  ]
-},
- {
-  "id": "set-5",
-  "title": "English Adjectives - Set 5",
-  "questions": [
-    {
-      "id": "a5q1",
-      "text": "Which sentence uses a comparative adjective?",
-      "options": [
-        "This is the best pizza I've ever had.",
-        "This pizza is better than the one yesterday.",
-        "This pizza is good.",
-        "This is a pizza."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "a5q2",
-      "text": "Choose the correct order of adjectives:",
-      "options": [
-        "a red small French car",
-        "a small French red car",
-        "a French red small car",
-        "a small red French car"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": "a5q3",
-      "text": "Identify the superlative adjective:",
-      "options": [
-        "good",
-        "better",
-        "best",
-        "well"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "a5q4",
-      "text": "Which sentence contains a coordinate adjective?",
-      "options": [
-        "The long winding road led home.",
-        "She wore a beautiful silk scarf.",
-        "The bright, cheerful room made us smile.",
-        "He enjoys classical music."
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "a5q5",
-      "text": "Which adjective is used incorrectly?",
-      "options": [
-        "This is a unique idea.",
-        "She is more pregnant than before.",
-        "That is a beautiful scene.",
-        "He has a strong voice."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "a5q6",
-      "text": "What is the function of adjectives in a sentence?",
-      "options": [
-        "Describe actions",
-        "Modify verbs",
-        "Name people or things",
-        "Modify nouns or pronouns"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": "a5q7",
-      "text": "Choose the sentence with the correct adjective form:",
-      "options": [
-        "She is more taller than him.",
-        "He is the most smartest boy.",
-        "This dress is more elegant.",
-        "That cake is deliciouser."
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "a5q8",
-      "text": "Which sentence contains a predicate adjective?",
-      "options": [
-        "She wore a red dress.",
-        "The dog is friendly.",
-        "We saw a bright light.",
-        "They painted the door green."
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "a5q9",
-      "text": "Which of the following is a limiting adjective?",
-      "options": [
-        "Beautiful",
-        "Five",
-        "Tall",
-        "Gentle"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "a5q10",
-      "text": "Identify the sentence with a demonstrative adjective:",
-      "options": [
-        "That book is mine.",
-        "She ran fast.",
-        "He is tall.",
-        "They are laughing."
-      ],
-      "correctAnswer": 0
-    }
-  ]
-},
-{
-  "id": "set-6",
-  "title": "English Vocabulary - Set 6",
-  "questions": [
-    {
-      "id": "v6q1",
-      "text": "Which leadership style involves decision-making primarily by the leader, with little to no input from subordinates?",
-      "options": [
-        "Democratic",
-        "Laissez-faire",
-        "Autocratic",
-        "Transformational"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q2",
-      "text": "The leadership style that emphasizes collaboration, feedback, and shared decision-making is called:",
-      "options": [
-        "Transformational",
-        "Transactional",
-        "Democratic",
-        "Authoritative"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q3",
-      "text": "Which leadership style focuses on inspiring and motivating employees to innovate and grow, often with a vision for future changes?",
-      "options": [
-        "Laissez-faire",
-        "Transactional",
-        "Transformational",
-        "Autocratic"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q4",
-      "text": "A leader who gives their team a lot of freedom and autonomy, often with little direct supervision, follows a _________ style of leadership.",
-      "options": [
-        "Democratic",
-        "Laissez-faire",
-        "Authoritative",
-        "Transformational"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q5",
-      "text": "Which leadership style is characterized by the leader setting clear expectations and rewarding or punishing team members based on performance?",
-      "options": [
-        "Transactional",
-        "Transformational",
-        "Laissez-faire",
-        "Democratic"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": "v6q6",
-      "text": "A leader who provides a clear direction, makes decisions with authority, and expects obedience from subordinates demonstrates which style?",
-      "options": [
-        "Laissez-faire",
-        "Autocratic",
-        "Democratic",
-        "Participative"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q7",
-      "text": "Which leadership style focuses on nurturing and developing people’s skills, fostering team cohesion, and empowering others?",
-      "options": [
-        "Transactional",
-        "Authoritative",
-        "Servant",
-        "Autocratic"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q8",
-      "text": "A leadership style that involves strong focus on results and strict enforcement of deadlines and standards is called:",
-      "options": [
-        "Laissez-faire",
-        "Transactional",
-        "Democratic",
-        "Authoritarian"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q9",
-      "text": "A leader who inspires confidence, establishes a clear vision, and encourages innovation typically adopts a _________ style.",
-      "options": [
-        "Laissez-faire",
-        "Transformational",
-        "Transactional",
-        "Democratic"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q10",
-      "text": "A __________ leader involves their team in decision-making processes, ensuring everyone’s opinion is considered.",
-      "options": [
-        "Autocratic",
-        "Transformational",
-        "Democratic",
-        "Laissez-faire"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q11",
-      "text": "The __________ leadership style can be described as a hands-off approach where employees are left to make their own decisions with minimal interference.",
-      "options": [
-        "Democratic",
-        "Autocratic",
-        "Laissez-faire",
-        "Transformational"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q12",
-      "text": "In which leadership style does the leader provide clear instructions and expects the team to follow them with little deviation?",
-      "options": [
-        "Democratic",
-        "Transactional",
-        "Authoritative",
-        "Laissez-faire"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q13",
-      "text": "Which leadership style is focused on ensuring team satisfaction and promoting a harmonious work environment, often at the expense of task efficiency?",
-      "options": [
-        "Democratic",
-        "Transformational",
-        "Laissez-faire",
-        "Servant"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": "v6q14",
-      "text": "The leadership style where the leader is often more focused on meeting deadlines and fulfilling contractual requirements than on team relationships is:",
-      "options": [
-        "Laissez-faire",
-        "Transactional",
-        "Democratic",
-        "Transformational"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": "v6q15",
-      "text": "A __________ leader seeks to bring about organizational change by inspiring followers to transcend their own self-interests for the good of the organization.",
-      "options": [
-        "Transactional",
-        "Laissez-faire",
-        "Transformational",
-        "Autocratic"
-      ],
-      "correctAnswer": 2
-    }
-  ]
-},
+        id: "sv3q14",
+        text: "A pair of shoes ___ missing.",
+        options: ["are", "is", "were", "be"],
+        correctAnswer: 1,
+      },
+      {
+        id: "sv3q15",
+        text: "Each of the players ___ a trophy.",
+        options: ["get", "gets", "have got", "got"],
+        correctAnswer: 1,
+      },
+      {
+        id: "sv3q16",
+        text: "The news ___ shocking.",
+        options: ["are", "were", "is", "have"],
+        correctAnswer: 2,
+      },
+      {
+        id: "sv3q17",
+        text: "Either John or his brothers ___ coming.",
+        options: ["is", "was", "are", "be"],
+        correctAnswer: 2,
+      },
+      {
+        id: "sv3q18",
+        text: "The team ___ winning all its matches.",
+        options: ["are", "is", "be", "were"],
+        correctAnswer: 1,
+      },
+      {
+        id: "sv3q19",
+        text: "There ___ a cat and two dogs in the yard.",
+        options: ["is", "are", "be", "was"],
+        correctAnswer: 1,
+      },
+      {
+        id: "sv3q20",
+        text: "Not only the teacher but also the students ___ tired.",
+        options: ["was", "are", "is", "be"],
+        correctAnswer: 1,
+      },
+    ],
+  },
   {
-    "id": "week-0",
-    "title": "Week-0 Leadership Fundamentals",
-    "questions": [
+    id: "set-4",
+    title: "English Modifiers - Set 4",
+    questions: [
       {
-        "id": "w0q1",
-        "text": "According to Lewin's management styles, which of the following is NOT a style identified by Lewin?",
-        "options": [
-          "Authoritative",
-          "Delegative",
-          "Laissez-faire",
-          "Directive"
-        ],
-        "correctAnswer": 3
+        id: "m4q1",
+        text: "She served sandwiches to the children on paper plates.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 1,
       },
       {
-        "id": "w0q2",
-        "text": "What does the 'Proactive Personality' trait indicate about a leader?",
-        "options": [
+        id: "m4q2",
+        text: "Running quickly, the finish line was crossed by John.",
+        options: ["Correct", "Dangling modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q3",
+        text: "Which revision fixes the modifier issue: “Covered in syrup, she devoured the pancakes.”",
+        options: [
+          "She devoured the pancakes, covered in syrup.",
+          "Covered in syrup, the pancakes were devoured by her.",
+          "She devoured the pancakes that were covered in syrup.",
+          "She, covered in syrup, devoured the pancakes.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "m4q4",
+        text: "Eager to impress the teacher, the homework was completed early.",
+        options: ["Correct", "Dangling modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q5",
+        text: "The man almost drove his kids to school every day.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q6",
+        text: "She wore a red dress to the party that was made of silk.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q7",
+        text: "After reading the original study, the article was unconvincing.",
+        options: ["Correct", "Dangling modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q8",
+        text: "He nearly spent $1,000 on a new computer.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q9",
+        text: "To improve his results, the experiment was repeated.",
+        options: ["Correct", "Dangling modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q10",
+        text: "Walking down the street, the birds chirped loudly.",
+        options: ["Correct", "Dangling modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q11",
+        text: "She almost failed every class she took.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 0,
+      },
+      {
+        id: "m4q12",
+        text: "Covered in chocolate, the kids ate the cookies quickly.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q13",
+        text: "He said on Friday he would be leaving.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 1,
+      },
+      {
+        id: "m4q14",
+        text: "Only she told the truth.",
+        options: ["Correct", "Misplaced modifier"],
+        correctAnswer: 0,
+      },
+      {
+        id: "m4q15",
+        text: "While driving to work, a deer suddenly appeared.",
+        options: ["Correct", "Dangling modifier"],
+        correctAnswer: 1,
+      },
+    ],
+  },
+  {
+    id: "set-5",
+    title: "English Adjectives - Set 5",
+    questions: [
+      {
+        id: "a5q1",
+        text: "Which sentence uses a comparative adjective?",
+        options: [
+          "This is the best pizza I've ever had.",
+          "This pizza is better than the one yesterday.",
+          "This pizza is good.",
+          "This is a pizza.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "a5q2",
+        text: "Choose the correct order of adjectives:",
+        options: [
+          "a red small French car",
+          "a small French red car",
+          "a French red small car",
+          "a small red French car",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "a5q3",
+        text: "Identify the superlative adjective:",
+        options: ["good", "better", "best", "well"],
+        correctAnswer: 2,
+      },
+      {
+        id: "a5q4",
+        text: "Which sentence contains a coordinate adjective?",
+        options: [
+          "The long winding road led home.",
+          "She wore a beautiful silk scarf.",
+          "The bright, cheerful room made us smile.",
+          "He enjoys classical music.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "a5q5",
+        text: "Which adjective is used incorrectly?",
+        options: [
+          "This is a unique idea.",
+          "She is more pregnant than before.",
+          "That is a beautiful scene.",
+          "He has a strong voice.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "a5q6",
+        text: "What is the function of adjectives in a sentence?",
+        options: [
+          "Describe actions",
+          "Modify verbs",
+          "Name people or things",
+          "Modify nouns or pronouns",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "a5q7",
+        text: "Choose the sentence with the correct adjective form:",
+        options: [
+          "She is more taller than him.",
+          "He is the most smartest boy.",
+          "This dress is more elegant.",
+          "That cake is deliciouser.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "a5q8",
+        text: "Which sentence contains a predicate adjective?",
+        options: [
+          "She wore a red dress.",
+          "The dog is friendly.",
+          "We saw a bright light.",
+          "They painted the door green.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "a5q9",
+        text: "Which of the following is a limiting adjective?",
+        options: ["Beautiful", "Five", "Tall", "Gentle"],
+        correctAnswer: 2,
+      },
+      {
+        id: "a5q10",
+        text: "Identify the sentence with a demonstrative adjective:",
+        options: [
+          "That book is mine.",
+          "She ran fast.",
+          "He is tall.",
+          "They are laughing.",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  {
+    id: "set-6",
+    title: "English Vocabulary - Set 6",
+    questions: [
+      {
+        id: "v6q1",
+        text: "Which leadership style involves decision-making primarily by the leader, with little to no input from subordinates?",
+        options: [
+          "Democratic",
+          "Laissez-faire",
+          "Autocratic",
+          "Transformational",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q2",
+        text: "The leadership style that emphasizes collaboration, feedback, and shared decision-making is called:",
+        options: [
+          "Transformational",
+          "Transactional",
+          "Democratic",
+          "Authoritative",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q3",
+        text: "Which leadership style focuses on inspiring and motivating employees to innovate and grow, often with a vision for future changes?",
+        options: [
+          "Laissez-faire",
+          "Transactional",
+          "Transformational",
+          "Autocratic",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q4",
+        text: "A leader who gives their team a lot of freedom and autonomy, often with little direct supervision, follows a _________ style of leadership.",
+        options: [
+          "Democratic",
+          "Laissez-faire",
+          "Authoritative",
+          "Transformational",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q5",
+        text: "Which leadership style is characterized by the leader setting clear expectations and rewarding or punishing team members based on performance?",
+        options: [
+          "Transactional",
+          "Transformational",
+          "Laissez-faire",
+          "Democratic",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "v6q6",
+        text: "A leader who provides a clear direction, makes decisions with authority, and expects obedience from subordinates demonstrates which style?",
+        options: ["Laissez-faire", "Autocratic", "Democratic", "Participative"],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q7",
+        text: "Which leadership style focuses on nurturing and developing people’s skills, fostering team cohesion, and empowering others?",
+        options: ["Transactional", "Authoritative", "Servant", "Autocratic"],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q8",
+        text: "A leadership style that involves strong focus on results and strict enforcement of deadlines and standards is called:",
+        options: [
+          "Laissez-faire",
+          "Transactional",
+          "Democratic",
+          "Authoritarian",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q9",
+        text: "A leader who inspires confidence, establishes a clear vision, and encourages innovation typically adopts a _________ style.",
+        options: [
+          "Laissez-faire",
+          "Transformational",
+          "Transactional",
+          "Democratic",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q10",
+        text: "A __________ leader involves their team in decision-making processes, ensuring everyone’s opinion is considered.",
+        options: [
+          "Autocratic",
+          "Transformational",
+          "Democratic",
+          "Laissez-faire",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q11",
+        text: "The __________ leadership style can be described as a hands-off approach where employees are left to make their own decisions with minimal interference.",
+        options: [
+          "Democratic",
+          "Autocratic",
+          "Laissez-faire",
+          "Transformational",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q12",
+        text: "In which leadership style does the leader provide clear instructions and expects the team to follow them with little deviation?",
+        options: [
+          "Democratic",
+          "Transactional",
+          "Authoritative",
+          "Laissez-faire",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q13",
+        text: "Which leadership style is focused on ensuring team satisfaction and promoting a harmonious work environment, often at the expense of task efficiency?",
+        options: ["Democratic", "Transformational", "Laissez-faire", "Servant"],
+        correctAnswer: 3,
+      },
+      {
+        id: "v6q14",
+        text: "The leadership style where the leader is often more focused on meeting deadlines and fulfilling contractual requirements than on team relationships is:",
+        options: [
+          "Laissez-faire",
+          "Transactional",
+          "Democratic",
+          "Transformational",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "v6q15",
+        text: "A __________ leader seeks to bring about organizational change by inspiring followers to transcend their own self-interests for the good of the organization.",
+        options: [
+          "Transactional",
+          "Laissez-faire",
+          "Transformational",
+          "Autocratic",
+        ],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  {
+    id: "week-0",
+    title: "Week-0 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w0q1",
+        text: "According to Lewin's management styles, which of the following is NOT a style identified by Lewin?",
+        options: ["Authoritative", "Delegative", "Laissez-faire", "Directive"],
+        correctAnswer: 3,
+      },
+      {
+        id: "w0q2",
+        text: "What does the 'Proactive Personality' trait indicate about a leader?",
+        options: [
           "The ability to adapt to different environments.",
           "The tendency to react to challenges passively.",
           "An inclination to identify opportunities and act on them.",
-          "A focus on team-centered decision-making."
+          "A focus on team-centered decision-making.",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w0q3",
-        "text": "What is the primary aim of Blake and Mouton's Leadership Grid?",
-        "options": [
+        id: "w0q3",
+        text: "What is the primary aim of Blake and Mouton's Leadership Grid?",
+        options: [
           "To assess concern for people versus concern for production.",
           "To highlight leadership charisma.",
           "To explore transformational versus transactional leadership.",
-          "To develop emotional intelligence in leaders."
+          "To develop emotional intelligence in leaders.",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w0q4",
-        "text": "Self-actualization needs are the most basic needs in Maslow's hierarchy.",
-        "options": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": 1
+        id: "w0q4",
+        text: "Self-actualization needs are the most basic needs in Maslow's hierarchy.",
+        options: ["True", "False"],
+        correctAnswer: 1,
       },
       {
-        "id": "w0q5",
-        "text": "The ___________ Technique is a structured method that uses expert feedback to arrive at an agreement.",
-        "options": [
-          "Brainstorming",
-          "Nominal Group",
-          "Collaborative",
-          "Delphi"
-        ],
-        "correctAnswer": 3
-      }
-    ]
+        id: "w0q5",
+        text: "The ___________ Technique is a structured method that uses expert feedback to arrive at an agreement.",
+        options: ["Brainstorming", "Nominal Group", "Collaborative", "Delphi"],
+        correctAnswer: 3,
+      },
+    ],
   },
   // Week 1
   {
-    "id": "week-1",
-    "title": "Week-1 Leadership Fundamentals",
-    "questions": [
+    id: "week-1",
+    title: "Week-1 Leadership Fundamentals",
+    questions: [
       {
-        "id": "w1q1",
-        "text": "Which of the following defines leadership as 'the art of influencing others to their maximum performance'?",
-        "options": [
+        id: "w1q1",
+        text: "Which of the following defines leadership as 'the art of influencing others to their maximum performance'?",
+        options: [
           "Northouse (2004)",
           "Cohen (1990)",
           "Jacobs & Jaques (1990)",
-          "Joanne Ciulla (1998)"
+          "Joanne Ciulla (1998)",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w1q2",
-        "text": "Which team type consists of members from the same department but lacks the authority to implement decisions independently?",
-        "options": [
+        id: "w1q2",
+        text: "Which team type consists of members from the same department but lacks the authority to implement decisions independently?",
+        options: [
           "Cross-functional teams",
           "Self-managed teams",
           "Problem-solving teams",
-          "Virtual teams"
+          "Virtual teams",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w1q3",
-        "text": "What is the critical task for leaders during their first day on the job?",
-        "options": [
+        id: "w1q3",
+        text: "What is the critical task for leaders during their first day on the job?",
+        options: [
           "Meet external stakeholders",
           "Lay down long-term goals",
           "Meet their boss and team",
-          "Redesign organizational strategy"
+          "Redesign organizational strategy",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w1q4",
-        "text": "Which leadership style described by Goleman focuses on emotional bonding?",
-        "options": [
-          "Commanding",
-          "Visionary",
-          "Affiliative",
-          "Coaching"
-        ],
-        "correctAnswer": 2
+        id: "w1q4",
+        text: "Which leadership style described by Goleman focuses on emotional bonding?",
+        options: ["Commanding", "Visionary", "Affiliative", "Coaching"],
+        correctAnswer: 2,
       },
       {
-        "id": "w1q5",
-        "text": "Why is leadership considered both a science and an art?",
-        "options": [
+        id: "w1q5",
+        text: "Why is leadership considered both a science and an art?",
+        options: [
           "It combines formal education with practical skills",
           "It relies exclusively on scientific methods",
           "It avoids artistic principles entirely",
-          "It depends solely on personal traits"
+          "It depends solely on personal traits",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w1q6",
-        "text": "What is the purpose of benchmarking during the first 90 days as a leader?",
-        "options": [
+        id: "w1q6",
+        text: "What is the purpose of benchmarking during the first 90 days as a leader?",
+        options: [
           "To replace team meetings",
           "To evaluate past leadership failures",
           "To gather external perspectives",
-          "To finalize internal hiring decisions"
+          "To finalize internal hiring decisions",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w1q7",
-        "text": "Which type of team operates across organizational boundaries?",
-        "options": [
+        id: "w1q7",
+        text: "Which type of team operates across organizational boundaries?",
+        options: [
           "Self-managed teams",
           "Cross-functional teams",
           "Problem-solving teams",
-          "Virtual teams"
+          "Virtual teams",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w1q8",
-        "text": "According to the myths about leadership, A charismatic personality is must to become a leader.",
-        "options": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": 1
+        id: "w1q8",
+        text: "According to the myths about leadership, A charismatic personality is must to become a leader.",
+        options: ["True", "False"],
+        correctAnswer: 1,
       },
       {
-        "id": "w1q9",
-        "text": "What is a common challenge new leaders face in their first 90 days?",
-        "options": [
+        id: "w1q9",
+        text: "What is a common challenge new leaders face in their first 90 days?",
+        options: [
           "Understanding organizational finances",
           "Over-delegating responsibilities",
           "Balancing relational and task-oriented goals",
-          "Avoiding long-term planning"
+          "Avoiding long-term planning",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w1q10",
-        "text": "Which element is central to the 'interactional framework' for analyzing leadership?",
-        "options": [
+        id: "w1q10",
+        text: "Which element is central to the 'interactional framework' for analyzing leadership?",
+        options: [
           "Organizational culture",
           "Leader, followers, and situation",
           "Individual capabilities",
-          "Leadership charisma"
+          "Leadership charisma",
         ],
-        "correctAnswer": 1
-      }
-    ]
+        correctAnswer: 1,
+      },
+    ],
   },
   // Week 2
   {
-    "id": "week-2",
-    "title": "Week-2 Leadership Fundamentals",
-    "questions": [
+    id: "week-2",
+    title: "Week-2 Leadership Fundamentals",
+    questions: [
       {
-        "id": "w2q1",
-        "text": "What are the three components of the Action-Observation-Reflection (AOR) model?",
-        "options": [
+        id: "w2q1",
+        text: "What are the three components of the Action-Observation-Reflection (AOR) model?",
+        options: [
           "Action, Analysis, and Reflection",
           "Observation, Decision, and Feedback",
           "Action, Observation, and Reflection",
-          "Planning, Observation, and Evaluation"
+          "Planning, Observation, and Evaluation",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w2q2",
-        "text": "Leader-Member Exchange (LMX) theory distinguishes between which two groups?",
-        "options": [
+        id: "w2q2",
+        text: "Leader-Member Exchange (LMX) theory distinguishes between which two groups?",
+        options: [
           "In-group and out-group",
           "Core-group and peripheral group",
           "Leader-focused and team-focused",
-          "Experienced and novice groups"
+          "Experienced and novice groups",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w2q3",
-        "text": "Which decision-making process involves the leader solving the problem independently?",
-        "options": [
+        id: "w2q3",
+        text: "Which decision-making process involves the leader solving the problem independently?",
+        options: [
           "Autocratic (Al)",
           "Consultative (C1)",
           "Group (G2)",
-          "Collaborative (C2)"
+          "Collaborative (C2)",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w2q4",
-        "text": "_________ leadership style is recommended for followers with low ability and low willingness in the Situational Leadership model?",
-        "options": [
-          "Delegating",
-          "Participating",
-          "Selling",
-          "Telling"
-        ],
-        "correctAnswer": 3
+        id: "w2q4",
+        text: "_________ leadership style is recommended for followers with low ability and low willingness in the Situational Leadership model?",
+        options: ["Delegating", "Participating", "Selling", "Telling"],
+        correctAnswer: 3,
       },
       {
-        "id": "w2q5",
-        "text": "What does Fiedler's Contingency Model use to determine leadership effectiveness?",
-        "options": [
+        id: "w2q5",
+        text: "What does Fiedler's Contingency Model use to determine leadership effectiveness?",
+        options: [
           "Leadership style and task complexity",
           "Leadership style and situational favorability",
           "Personality traits and maturity levels",
-          "Emotional intelligence and readiness"
+          "Emotional intelligence and readiness",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w2q6",
-        "text": "Which leadership behavior in the Path-Goal Theory involves providing emotional support and showing concern for followers?",
-        "options": [
+        id: "w2q6",
+        text: "Which leadership behavior in the Path-Goal Theory involves providing emotional support and showing concern for followers?",
+        options: [
           "Directive",
           "Supportive",
           "Participative",
-          "Achievement-oriented"
+          "Achievement-oriented",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w2q7",
-        "text": "What is the primary focus of high-quality LMX relationships?",
-        "options": [
+        id: "w2q7",
+        text: "What is the primary focus of high-quality LMX relationships?",
+        options: [
           "Hierarchical superiority",
           "Equal treatment for all team members",
           "Mutual trust and respect",
-          "Increased contractual obligations"
+          "Increased contractual obligations",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w2q8",
-        "text": "What is the least-used leadership style according to SLII research findings?",
-        "options": [
+        id: "w2q8",
+        text: "What is the least-used leadership style according to SLII research findings?",
+        options: [
           "High support, low direction",
           "High direction, high support",
           "Low direction, high support",
-          "High direction, low support"
+          "High direction, low support",
         ],
-        "correctAnswer": 3
+        correctAnswer: 3,
       },
       {
-        "id": "w2q9",
-        "text": "Which style of leadership in the Vroom-Yetton model involves the leader accepting group consensus?",
-        "options": [
-          "Al",
-          "C2",
-          "G2",
-          "C1"
-        ],
-        "correctAnswer": 2
+        id: "w2q9",
+        text: "Which style of leadership in the Vroom-Yetton model involves the leader accepting group consensus?",
+        options: ["Al", "C2", "G2", "C1"],
+        correctAnswer: 2,
       },
       {
-        "id": "w2q10",
-        "text": "According to the AOR model, what is the most neglected phase in leadership development?",
-        "options": [
-          "Action",
-          "Observation",
-          "Reflection",
-          "Decision-making"
-        ],
-        "correctAnswer": 2
-      }
-    ]
+        id: "w2q10",
+        text: "According to the AOR model, what is the most neglected phase in leadership development?",
+        options: ["Action", "Observation", "Reflection", "Decision-making"],
+        correctAnswer: 2,
+      },
+    ],
   },
   // Week 3
   {
-    "id": "week-3",
-    "title": "Week-3 Leadership Fundamentals",
-    "questions": [
+    id: "week-3",
+    title: "Week-3 Leadership Fundamentals",
+    questions: [
       {
-        "id": "w3q1",
-        "text": "What is the primary characteristic of charismatic leaders according to Weber?",
-        "options": [
+        id: "w3q1",
+        text: "What is the primary characteristic of charismatic leaders according to Weber?",
+        options: [
           "Superhuman qualities or powers",
           "Rational decision-making",
           "Systematic organization of leadership styles",
-          "Democratic leadership behavior"
+          "Democratic leadership behavior",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w3q2",
-        "text": "Which leadership type focuses on exchanges to meet individual needs?",
-        "options": [
+        id: "w3q2",
+        text: "Which leadership type focuses on exchanges to meet individual needs?",
+        options: [
           "Transformational leadership",
           "Transactional leadership",
           "Charismatic leadership",
-          "Situational leadership"
+          "Situational leadership",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w3q3",
-        "text": "What is one key focus of transformational leadership?",
-        "options": [
+        id: "w3q3",
+        text: "What is one key focus of transformational leadership?",
+        options: [
           "Encouraging high dependency on leaders",
           "Articulating a compelling vision linked to followers' values",
           "Maintaining the status quo",
-          "Exchanging rewards for loyalty"
+          "Exchanging rewards for loyalty",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w3q4",
-        "text": "Belief in their ability to influence outcomes defines a leader with \"internal locus of control\".",
-        "options": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": 0
+        id: "w3q4",
+        text: 'Belief in their ability to influence outcomes defines a leader with "internal locus of control".',
+        options: ["True", "False"],
+        correctAnswer: 0,
       },
       {
-        "id": "w3q5",
-        "text": "What does the term \"crucible\" refer to in leadership development?",
-        "options": [
+        id: "w3q5",
+        text: 'What does the term "crucible" refer to in leadership development?',
+        options: [
           "Training for technical leadership skills",
           "Transformational life experiences",
           "Mandatory management workshops",
-          "Peer-reviewed evaluations"
+          "Peer-reviewed evaluations",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w3q6",
-        "text": "Which component is NOT a part of the Infosys 9-Pillar Leadership Model?",
-        "options": [
+        id: "w3q6",
+        text: "Which component is NOT a part of the Infosys 9-Pillar Leadership Model?",
+        options: [
           "Community Empathy",
           "Feedback-intensive programs",
           "Systematic resource allocation",
-          "Action learning"
+          "Action learning",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w3q7",
-        "text": "According to the Great Man Theory, what primarily drives leadership success?",
-        "options": [
+        id: "w3q7",
+        text: "According to the Great Man Theory, what primarily drives leadership success?",
+        options: [
           "Leadership traits are developed through experience",
           "Certain individuals are born with leadership traits",
           "Collaborative team building enhances leadership",
-          "Situational factors influence leadership emergence"
+          "Situational factors influence leadership emergence",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w3q8",
-        "text": "_________ interpersonal skill is vital for understanding others.",
-        "options": [
+        id: "w3q8",
+        text: "_________ interpersonal skill is vital for understanding others.",
+        options: [
           "Awareness",
           "Problem-solving ability",
           "Resilience",
-          "Emotional intelligence"
+          "Emotional intelligence",
         ],
-        "correctAnswer": 3
+        correctAnswer: 3,
       },
       {
-        "id": "w3q9",
-        "text": "What is a central trait in Allport's Trait Theory?",
-        "options": [
+        id: "w3q9",
+        text: "What is a central trait in Allport's Trait Theory?",
+        options: [
           "Traits influencing behavior in specific situations",
           "Dominant traits shaping an individual's entire personality",
           "General characteristics that form the foundation of personality",
-          "Observable traits displayed in daily interactions"
+          "Observable traits displayed in daily interactions",
         ],
-        "correctAnswer": 2
+        correctAnswer: 2,
       },
       {
-        "id": "w3q10",
-        "text": "Which Big Five personality trait measures an individual's emotional stability?",
-        "options": [
+        id: "w3q10",
+        text: "Which Big Five personality trait measures an individual's emotional stability?",
+        options: [
           "Agreeableness",
           "Openness",
           "Neuroticism",
-          "Conscientiousness"
+          "Conscientiousness",
         ],
-        "correctAnswer": 2
-      }
-    ]
+        correctAnswer: 2,
+      },
+    ],
   },
   // Week 4
   {
-    "id": "week-4",
-    "title": "Week-4 Leadership Fundamentals",
-    "questions": [
+    id: "week-4",
+    title: "Week-4 Leadership Fundamentals",
+    questions: [
       {
-        "id": "w4q1",
-        "text": "What is intelligence primarily defined as?",
-        "options": [
+        id: "w4q1",
+        text: "What is intelligence primarily defined as?",
+        options: [
           "The ability to manipulate objects",
           "All-around effectiveness in activities directed by thought",
           "The capacity to work collaboratively",
-          "A measure of one's education level"
+          "A measure of one's education level",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w4q2",
-        "text": "Sternberg's Triarchic Theory includes which of the following types of intelligence?",
-        "options": [
+        id: "w4q2",
+        text: "Sternberg's Triarchic Theory includes which of the following types of intelligence?",
+        options: [
           "Analytical, creative, and practical",
           "Musical and linguistic",
           "Fluid and crystallized",
-          "Emotional and logical"
+          "Emotional and logical",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w4q3",
-        "text": "What does divergent thinking primarily involve?",
-        "options": [
+        id: "w4q3",
+        text: "What does divergent thinking primarily involve?",
+        options: [
           "Identifying one correct answer",
           "Memorizing data",
           "Simplifying complex problems",
-          "Generating multiple creative ideas"
+          "Generating multiple creative ideas",
         ],
-        "correctAnswer": 3
+        correctAnswer: 3,
       },
       {
-        "id": "w4q4",
-        "text": "According to Cognitive Resource Theory, does Emotional intelligence affect decision-making under stress?",
-        "options": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": 1
+        id: "w4q4",
+        text: "According to Cognitive Resource Theory, does Emotional intelligence affect decision-making under stress?",
+        options: ["True", "False"],
+        correctAnswer: 1,
       },
       {
-        "id": "w4q5",
-        "text": "Which model of emotional intelligence focuses on broader leadership qualities?",
-        "options": [
+        id: "w4q5",
+        text: "Which model of emotional intelligence focuses on broader leadership qualities?",
+        options: [
           "Mixed Model",
           "Ability Model",
           "Behavioral Model",
-          "Trait Model"
+          "Trait Model",
         ],
-        "correctAnswer": 0
+        correctAnswer: 0,
       },
       {
-        "id": "w4q6",
-        "text": "What can emotional intelligence best be described as?",
-        "options": [
+        id: "w4q6",
+        text: "What can emotional intelligence best be described as?",
+        options: [
           "Intelligence about logic",
           "Recognition and management of emotions",
           "Ability to solve analytical problems",
-          "Understanding cultural nuances"
+          "Understanding cultural nuances",
         ],
-        "correctAnswer": 1
+        correctAnswer: 1,
       },
       {
-        "id": "w4q7",
-        "text": "What is a core characteristic of emotionally intelligent leaders?",
-        "options": [
+        id: "w4q7",
+        text: "What is a core characteristic of emotionally intelligent leaders?",
+        options: [
           "High analytical skills",
           "Focus on coercion",
           "Avoidance of conflicts",
-          "Mood management"
+          "Mood management",
         ],
-        "correctAnswer": 3
+        correctAnswer: 3,
       },
       {
-        "id": "w4q8",
-        "text": "_________ type of power is most associated with personal relationships?",
-        "options": [
-          "Coercive",
-          "Legitimate",
-          "Referent",
-          "Reward"
-        ],
-        "correctAnswer": 2
+        id: "w4q8",
+        text: "_________ type of power is most associated with personal relationships?",
+        options: ["Coercive", "Legitimate", "Referent", "Reward"],
+        correctAnswer: 2,
       },
       {
-        "id": "w4q9",
-        "text": "Legitimate power stems from Organizational authority.",
-        "options": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": 0
+        id: "w4q9",
+        text: "Legitimate power stems from Organizational authority.",
+        options: ["True", "False"],
+        correctAnswer: 0,
       },
       {
-        "id": "w4q10",
-        "text": "Dependency is the key to power because?",
-        "options": [
+        id: "w4q10",
+        text: "Dependency is the key to power because?",
+        options: [
           "It simplifies organizational hierarchies",
           "It increases the scarcity of resources",
           "The greater the dependency, the greater the power",
-          "It aligns with financial resources"
+          "It aligns with financial resources",
         ],
-        "correctAnswer": 2
-      }
-    ]
+        correctAnswer: 2,
+      },
+    ],
   },
   // Week 5
-    {
-      "id": "week-5",
-      "title": "Week-5 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w5q1",
-          "text": "What are the four key components of authentic leadership?",
-          "options": [
-            "Transparency, Self-awareness, Balanced processing, Internalized moral perspective",
-            "Honesty, Integrity, Innovation, Compassion",
-            "Empathy, Vision, Flexibility, Resilience",
-            "Leadership, Strategy, Communication, Delegation"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w5q2",
-          "text": "Which of the following is NOT a characteristic of servant leadership?",
-          "options": [
-            "Empathy",
-            "Persuasion",
-            "Self-interest",
-            "Commitment"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w5q3",
-          "text": "What is the primary purpose of the Leadership Pipeline model?",
-          "options": [
-            "To focus only on CEO development",
-            "To map leader development at all organizational levels",
-            "To reduce training costs",
-            "To identify leadership errors"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w5q4",
-          "text": "What are the two core components of ethical leadership, as defined by Avolio and his associates?",
-          "options": [
-            "Moral person and moral manager",
-            "Transparency and accountability",
-            "Honesty and empathy",
-            "Vision and influence"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w5q5",
-          "text": "Initiating structure leadership style, identified in the Ohio State studies, is task-oriented.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w5q6",
-          "text": "In the Leadership Grid, which management style balances concern for people and production?",
-          "options": [
-            "Impoverished Management",
-            "Team Management",
-            "Middle-of-the-Road Management",
-            "Authority-Compliance Management"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w5q7",
-          "text": "Is unrestricted freedom of decision-making a characteristic of ethical leadership?",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w5q8",
-          "text": "What does the 'balanced processing' component of authentic leadership entail?",
-          "options": [
-            "Focusing equally on personal and organizational goals",
-            "Objectively analyzing all relevant data before making a decision",
-            "Balancing work-life priorities effectively",
-            "Processing feedback in a balanced manner"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w5q9",
-          "text": "__________ is a major mistake in developing a leadership pipeline?",
-          "options": [
-            "Focusing on functional expertise",
-            "Encouraging feedback",
-            "Promoting people too quickly",
-            "Creating a vision for leaders"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w5q10",
-          "text": "The Leadership Pipeline passage from managing managers to managing functions requires:",
-          "options": [
-            "Broad, long-term strategic thinking",
-            "Focus on task-oriented goals",
-            "Narrow functional expertise",
-            "Avoidance of delegation"
-          ],
-          "correctAnswer": 0
-        }
-      ]
-    },
-    //   Week 6
-    {
-      "id": "week-6",
-      "title": "Week-6 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w6q1",
-          "text": "Which element is NOT part of the Toxic Triangle model in destructive leadership?",
-          "options": [
-            "Destructive Leadership",
-            "Susceptible Followers",
-            "Conducive Environment",
-            "Collaborative Teams"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w6q2",
-          "text": "What is a primary characteristic of chronic managerial incompetence?",
-          "options": [
-            "Inability to build teams temporarily due to tough situations",
-            "Short-term issues with follower engagement",
-            "Consistent failure to adapt to situational challenges",
-            "Lack of technical knowledge"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w6q3",
-          "text": "____________ negotiation style reflects a 'Win-Win' approach?",
-          "options": [
-            "Competition",
-            "Collaboration",
-            "Compromise",
-            "Avoidance"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w6q4",
-          "text": "Is Risk Assessment the first stage in the Three-Stage Crisis Management Plan",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w6q5",
-          "text": "Which of the following is a trait of adaptive leadership?",
-          "options": [
-            "Encouraging shared responsibility",
-            "Rigid decision-making",
-            "Focusing on short-term gains",
-            "Avoiding accountability"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w6q6",
-          "text": "What does the term 'task autonomy' refer to?",
-          "options": [
-            "The degree of collaboration needed in tasks",
-            "Feedback given after task completion",
-            "The complexity of the task structure",
-            "The freedom to decide how to complete a task"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w6q7",
-          "text": "Is the Narcissism personality trait most associated with destructive leaders ignoring inputs from others?",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w6q8",
-          "text": "What is the primary focus of episodic managerial incompetence?",
-          "options": [
-            "Chronic inability to perform tasks",
-            "Temporary disruption due to tough events",
-            "Lack of organizational fit",
-            "Failure to build teams permanently"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w6q9",
-          "text": "What is the primary aim of the Toxic to Transformative Triangle model?",
-          "options": [
-            "To enhance destructive leadership skills",
-            "To provide tools for passive leadership",
-            "To reduce organizational complexity",
-            "To transform toxic leadership into constructive leadership"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w6q10",
-          "text": "Which of the following describes the 'Avoidance' negotiation style?",
-          "options": [
-            "Win-Lose",
-            "Lose-Lose",
-            "Win-Win",
-            "Compromise"
-          ],
-          "correctAnswer": 1
-        }
-      ]
-    },
-    //   Week 7
-    {
-      "id": "week-7",
-      "title": "Week-7 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w7q1",
-          "text": "What are the seven primary characteristics that define organizational culture?",
-          "options": [
-            "Leadership styles, trust, collaboration, team orientation, creativity, adaptability, ethics",
-            "Innovation, risk-taking, attention to detail, outcome orientation, people orientation, team orientation, stability",
-            "Diversity, hierarchy, market orientation, team spirit, creativity, empathy, ethics",
-            "Problem-solving, innovation, motivation, leadership agility, communication, collaboration, trust"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w7q2",
-          "text": "What is the primary aim of a leadership culture, as defined by Robin Sharma?",
-          "options": [
-            "Promoting hierarchy in decision-making",
-            "Encouraging everyone to think like owners or CEOs",
-            "Minimizing risk in decision-making",
-            "Fostering strict adherence to established procedures"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w7q3",
-          "text": "____________ is NOT one of Schein’s four key organizational culture factors.",
-          "options": [
-            "Myths and stories",
-            "Symbols and artifacts",
-            "Behavioral modeling",
-            "Language"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w7q4",
-          "text": "Which leadership approach is essential for creating a positive organizational culture?",
-          "options": [
-            "Delegation of tasks to subordinates",
-            "Rewarding employees more than punishing them",
-            "Adopting a laissez-faire leadership style",
-            "Focusing solely on profitability"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w7q5",
-          "text": "What is a key characteristic of market-oriented cultures?",
-          "options": [
-            "Emphasis on teamwork and loyalty",
-            "Stability and internal efficiency",
-            "Focus on external competitiveness and results",
-            "Adaptability and risk-taking"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w7q6",
-          "text": "According to the GLOBE study, which leadership style focuses on building trust and compassion?",
-          "options": [
-            "Charismatic leadership",
-            "Participative leadership",
-            "Autonomous leadership",
-            "Humane-oriented leadership"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w7q7",
-          "text": "Which of the following is considered a universal leadership attribute in the GLOBE study?",
-          "options": [
-            "Ruthlessness",
-            "Egocentrism",
-            "Trustworthiness",
-            "Dictatorial behavior"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w7q8",
-          "text": "What is the essence of a \"glocal\" mindset in global leadership?",
-          "options": [
-            "Focusing solely on global strategies",
-            "Ignoring local cultural nuances",
-            "Balancing global integration with local responsiveness",
-            "Avoiding risk-taking in complex environments"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w7q9",
-          "text": "What does the Pygmalion effect emphasize in goal setting?",
-          "options": [
-            "High expectations can lead to higher performance",
-            "Low expectations prevent goal achievement",
-            "High goals demotivate employees",
-            "Leadership should remain neutral to follower expectations"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w7q10",
-          "text": "Empowerment motivational theory emphasizes autonomy and self-determination.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0
-        }
-      ]
-    },
-    //   Week 8
-    {
-      "id": "week-8",
-      "title": "Week-8 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w8q1",
-          "text": "Which of the following is NOT a principle of group dynamics as discussed by Dorwin Carl Wright?",
-          "options": [
-            "The more attractive a group is to its members, the greater its influence.",
-            "Information relating to change must be shared by all relevant people in the group.",
-            "Group members with diverse opinions should be excluded to avoid conflict.",
-            "Strong pressure for change can be created by fostering a shared perception of the need for change."
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w8q2",
-          "text": "Forming stage of Tuckman's stages of group development is characterized by a strong sense of group identity and camaraderie.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w8q3",
-          "text": "According to Social Identity Theory, why do people have emotional reactions to the failure or success of their group?",
-          "options": [
-            "They fear punishment for group failure.",
-            "They are naturally competitive.",
-            "Their self-esteem is tied to the group's performance.",
-            "They are empathetic to other group members."
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w8q4",
-          "text": "Which group dynamics theory suggests that individuals are drawn to groups based on shared attitudes towards common objects and goals?",
-          "options": [
-            "Propinquity Theory",
-            "Balance Theory",
-            "Exchange Theory",
-            "Homan's Theory"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w8q5",
-          "text": "Which of the following is NOT a class of group norms typically found in organizations?",
-          "options": [
-            "Performance norms",
-            "Appearance norms",
-            "Leadership norms",
-            "Allocation of resources norms"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w8q6",
-          "text": "What is the term for the tendency of individuals to put in less effort when working in a group compared to working alone?",
-          "options": [
-            "Social loafing",
-            "Groupthink",
-            "Group-shift",
-            "Deviant workplace behavior"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w8q7",
-          "text": "Which of the following strategies is recommended for effective group decision-making?",
-          "options": [
-            "Strive for homogeneity in group composition.",
-            "Appoint a strategic dissenter.",
-            "Discourage independent opinion collection.",
-            "Rely heavily on experts."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w8q8",
-          "text": "The case study about the housing bubble and collapse illustrates which group dynamic?",
-          "options": [
-            "Groupthink",
-            "Role behavior",
-            "Status hierarchy",
-            "Herd behavior"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w8q9",
-          "text": "What is the definition of teamwork?",
-          "options": [
-            "The sum of individual efforts by team members.",
-            "The combined efforts of team members working cohesively towards a common goal.",
-            "The individual performances of team members working independently.",
-            "The competition among team members to achieve personal goals."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w8q10",
-          "text": "Which of the following is NOT a primary benefit of implementing work teams?",
-          "options": [
-            "Improved employee motivation",
-            "Positive synergy",
-            "Increased individual recognition",
-            "Improved turnover"
-          ],
-          "correctAnswer": 2
-        }
-      ]
-    },
-    //   Week 9
-    {
-      "id": "week-9",
-      "title": "Week-9 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w9q1",
-          "text": "Which of the following is NOT a characteristic of Team Effectiveness as suggested by Larson & LaFasto (1989)?",
-          "options": [
-            "Collaborative Climate",
-            "Competent Team Members",
-            "Shared Leadership",
-            "Standards of Excellence"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w9q2",
-          "text": "Which of the following is NOT a symptom of ineffective teams?",
-          "options": [
-            "High level of innovation",
-            "Confusion about assignments",
-            "Loss of production",
-            "Ineffective meetings"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w9q3",
-          "text": "Which of the following is NOT a leadership action that can improve environmental interface with the team?",
-          "options": [
-            "Buffering team members from environmental distractions",
-            "Sharing relevant environmental information with the team",
-            "Collaborating (including, involving)",
-            "Negotiating upward to secure necessary resources for the team"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w9q4",
-          "text": "What is the primary focus of the \"Team-Centered Decision-Making Model\"?",
-          "options": [
-            "The leader makes all final decisions.",
-            "Team members are empowered to make decisions.",
-            "Decisions are made based on a strict hierarchy.",
-            "The model emphasizes individual contributions over team consensus."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w9q5",
-          "text": "Which of the following is NOT a key characteristic of virtual teams?",
-          "options": [
-            "Reliance on electronic communication",
-            "Geographical dispersion of team members",
-            "Always focused on short-term projects",
-            "Can have members working at different times"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w9q6",
-          "text": "What is the main difference between \"Process Gain\" and \"Process Loss\" in team dynamics?",
-          "options": [
-            "Process Gain focuses on individual performance, while Process Loss focuses on team performance.",
-            "Process Gain refers to exceeding expected team output, while Process Loss refers to underperforming compared to individual capabilities.",
-            "Process Gain is a measure of efficiency, while Process Loss is a measure of effectiveness.",
-            "Process Gain highlights the positive aspects of team conflict, while Process Loss focuses on the negative aspects."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w9q7",
-          "text": "According to Hackman and Wageman, when is \"Motivational Coaching\" most effective in a team's life cycle?",
-          "options": [
-            "At the beginning of a performance period",
-            "At the midpoint of a performance period",
-            "When performance activities have been completed",
-            "Throughout the entire performance period"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w9q8",
-          "text": "What is \"Deterrence-Based Trust\" primarily based on in the context of virtual teams?",
-          "options": [
-            "Shared values and understanding",
-            "Consistent behavior and the threat of punishment",
-            "Long-term relationships and shared experiences",
-            "Open communication and mutual respect"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w9q9",
-          "text": "Which team decision-making technique involves gathering expert opinions from geographically dispersed individuals without face-to-face interaction?",
-          "options": [
-            "Brainstorming",
-            "Nominal Group Technique",
-            "Delphi Technique",
-            "Round Robin Technique"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w9q10",
-          "text": "Which of the following is NOT a benefit of offsite training for team development?",
-          "options": [
-            "Improved communication",
-            "Enhanced self-confidence",
-            "Increased cooperation",
-            "Guaranteed long-term behavioral change"
-          ],
-          "correctAnswer": 3
-        }
-      ]
-    },
-    //   Week 10
-    {
-      "id": "week-10",
-      "title": "Week-10 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w10q1",
-          "text": "Which stage of the Multicultural Organization Development Model focuses on actively recruiting and promoting historically excluded groups?",
-          "options": [
-            "The Exclusionary Organization",
-            "The Club",
-            "The Affirming Organization",
-            "The Redefining Organization"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w10q2",
-          "text": "What is the primary focus of the \"Problem-Solving\" component in team building?",
-          "options": [
-            "Strengthening interpersonal relations",
-            "Identifying major team problems",
-            "Establishing team norms",
-            "Facilitating creative thinking"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w10q3",
-          "text": "According to Kolb’s Experiential Learning Cycle, what comes after Reflective Observation?",
-          "options": [
-            "Abstract Conceptualization",
-            "Active Experimentation",
-            "Concrete Experience",
-            "Direct Application"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w10q4",
-          "text": "_____________ learning style in Kolb's theory emphasizes reasoning and systematic assessment.",
-          "options": [
-            "Diverging",
-            "Converging",
-            "Accommodating",
-            "Assimilating"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w10q5",
-          "text": "What is a key principle of Action Learning?",
-          "options": [
-            "It is an involuntary process.",
-            "It focuses exclusively on technical problems.",
-            "It centers on solving real-world problems.",
-            "It avoids team collaboration."
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w10q6",
-          "text": "Setting goals is the first step in conducting a GAPS analysis.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w10q7",
-          "text": "Which behavior is foundational in building a cohesive team?",
-          "options": [
-            "Conflict avoidance",
-            "Seeking consensus",
-            "Establishing strict rules",
-            "Trust building"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w10q8",
-          "text": "What is the advantage of using experiential learning in corporate training?",
-          "options": [
-            "It minimizes engagement levels.",
-            "It bridges theory and practice.",
-            "It focuses on rote learning.",
-            "It reduces the need for real-world application."
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w10q9",
-          "text": "What does the \"Law of the Chain\" in team building imply?",
-          "options": [
-            "The strength of the team depends on its weakest link.",
-            "Every team is independent of individual performance.",
-            "Teams function best without hierarchies.",
-            "Leadership is the sole determinant of success."
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w10q10",
-          "text": "Schedule meetings identifying the strengths of team members in the team-building process.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1
-        }
-      ]
-    },
-    //   Week 11
-    {
-      "id": "week-11",
-      "title": "Week-11 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w11q1",
-          "text": "What is the primary focus of the GROW coaching model?",
-          "options": [
-            "Establishing relationships",
-            "Setting clear, inspiring goals",
-            "Reviewing team performance",
-            "Enhancing team autonomy"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w11q2",
-          "text": "Which characteristic is commonly associated with women leaders?",
-          "options": [
-            "Command-and-control leadership style",
-            "Task-oriented but independent decision-making",
-            "Avoidance of collaboration",
-            "Transformational leadership style"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w11q3",
-          "text": "According to Herzberg's Two-Factor Theory, Recognition is a motivator.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w11q4",
-          "text": "What is the core principle of supportive communication?",
-          "options": [
-            "Prioritizing global over specific messages",
-            "Focusing on problems, not personal traits",
-            "Avoiding congruence in verbal and non-verbal cues",
-            "Ignoring emotional responses during feedback"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w11q5",
-          "text": "_______________ is an essential trait followers desire in their leaders?",
-          "options": [
-            "Authoritarian behavior",
-            "Avoidance of collaboration",
-            "Dependability",
-            "Hesitation in decision-making"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w11q6",
-          "text": "Which type of mentoring involves senior professionals being mentored by younger employees?",
-          "options": [
-            "Speed mentoring",
-            "Reverse mentoring",
-            "Peer mentoring",
-            "Group mentoring"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w11q7",
-          "text": "Which factor contributes significantly to women's leadership challenges?",
-          "options": [
-            "Lack of educational opportunities",
-            "Abundance of flexible work environments",
-            "Declining opportunities for mentorship",
-            "Persistent societal stereotypes"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w11q8",
-          "text": "What does Graicuna’s Theory on the Span of Management primarily analyze?",
-          "options": [
-            "Employee productivity",
-            "Hierarchical leadership",
-            "Relationships between supervisors and subordinates",
-            "Team morale during management transitions"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w11q9",
-          "text": "What is a core component of effective communication?",
-          "options": [
-            "High probability of intended message understanding",
-            "Lack of clarity in delivery",
-            "Ignoring feedback",
-            "Avoiding symbols and signs"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w11q10",
-          "text": "Rigid work structures enhance followers' job satisfaction.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1
-        }
-      ]
-    },
-    //   Week 12
-    {
-      "id": "week-12",
-      "title": "Week-12 Leadership Fundamentals",
-      "questions": [
-        {
-          "id": "w12q1",
-          "text": "What is a key component of setting effective goals in a team?",
-          "options": [
-            "Avoiding feedback",
-            "Making goals inclusive",
-            "Setting unattainable goals",
-            "Ignoring individual roles"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w12q2",
-          "text": "Which element is vital for constructive feedback?",
-          "options": [
-            "Evaluative language",
-            "Indirect communication",
-            "Specificity and helpfulness",
-            "Delayed timing"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "id": "w12q3",
-          "text": "What does divergent thinking emphasize in problem-solving?",
-          "options": [
-            "Finding a single, optimal solution",
-            "Applying linear reasoning",
-            "Prioritizing speed over creativity",
-            "Exploring multiple potential solutions"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w12q4",
-          "text": "In the Rocket Model, \"Buy-In\" refers to __________?",
-          "options": [
-            "Commitment to team goals",
-            "Ensuring task delegation",
-            "Clarifying individual roles",
-            "Adapting to external changes"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w12q5",
-          "text": "What is one characteristic of high-performing teams?",
-          "options": [
-            "Lack of accountability",
-            "Mutual trust among members",
-            "Avoiding conflicts entirely",
-            "Rigid communication structures"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w12q6",
-          "text": "What is the purpose of the Trust Triangle?",
-          "options": [
-            "Measuring organizational diversity",
-            "Enhancing credibility in leaders",
-            "Diagnosing team dynamics",
-            "Exploring authenticity, logic, and empathy"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w12q7",
-          "text": "Is Adherence to ethical values a leadership trait critical for building credibility?",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "id": "w12q8",
-          "text": "What is one principle of developing others?",
-          "options": [
-            "Relying solely on external motivation",
-            "Promoting competition over collaboration",
-            "Limiting learning opportunities",
-            "Respecting individual differences"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "id": "w12q9",
-          "text": "Setting realistic goals is a common barrier to goal achievement?",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "id": "w12q10",
-          "text": "What is a key step in the Creative Problem-Solving process?",
-          "options": [
-            "Ignoring initial data collection",
-            "Avoiding divergent thinking",
-            "Formulating challenges to explore solutions",
-            "Skipping implementation plans"
-          ],
-          "correctAnswer": 2
-        }
-      ]
-    },
-   ]
+  {
+    id: "week-5",
+    title: "Week-5 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w5q1",
+        text: "What are the four key components of authentic leadership?",
+        options: [
+          "Transparency, Self-awareness, Balanced processing, Internalized moral perspective",
+          "Honesty, Integrity, Innovation, Compassion",
+          "Empathy, Vision, Flexibility, Resilience",
+          "Leadership, Strategy, Communication, Delegation",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w5q2",
+        text: "Which of the following is NOT a characteristic of servant leadership?",
+        options: ["Empathy", "Persuasion", "Self-interest", "Commitment"],
+        correctAnswer: 2,
+      },
+      {
+        id: "w5q3",
+        text: "What is the primary purpose of the Leadership Pipeline model?",
+        options: [
+          "To focus only on CEO development",
+          "To map leader development at all organizational levels",
+          "To reduce training costs",
+          "To identify leadership errors",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w5q4",
+        text: "What are the two core components of ethical leadership, as defined by Avolio and his associates?",
+        options: [
+          "Moral person and moral manager",
+          "Transparency and accountability",
+          "Honesty and empathy",
+          "Vision and influence",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w5q5",
+        text: "Initiating structure leadership style, identified in the Ohio State studies, is task-oriented.",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+      {
+        id: "w5q6",
+        text: "In the Leadership Grid, which management style balances concern for people and production?",
+        options: [
+          "Impoverished Management",
+          "Team Management",
+          "Middle-of-the-Road Management",
+          "Authority-Compliance Management",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w5q7",
+        text: "Is unrestricted freedom of decision-making a characteristic of ethical leadership?",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+      {
+        id: "w5q8",
+        text: "What does the 'balanced processing' component of authentic leadership entail?",
+        options: [
+          "Focusing equally on personal and organizational goals",
+          "Objectively analyzing all relevant data before making a decision",
+          "Balancing work-life priorities effectively",
+          "Processing feedback in a balanced manner",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w5q9",
+        text: "__________ is a major mistake in developing a leadership pipeline?",
+        options: [
+          "Focusing on functional expertise",
+          "Encouraging feedback",
+          "Promoting people too quickly",
+          "Creating a vision for leaders",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w5q10",
+        text: "The Leadership Pipeline passage from managing managers to managing functions requires:",
+        options: [
+          "Broad, long-term strategic thinking",
+          "Focus on task-oriented goals",
+          "Narrow functional expertise",
+          "Avoidance of delegation",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  //   Week 6
+  {
+    id: "week-6",
+    title: "Week-6 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w6q1",
+        text: "Which element is NOT part of the Toxic Triangle model in destructive leadership?",
+        options: [
+          "Destructive Leadership",
+          "Susceptible Followers",
+          "Conducive Environment",
+          "Collaborative Teams",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w6q2",
+        text: "What is a primary characteristic of chronic managerial incompetence?",
+        options: [
+          "Inability to build teams temporarily due to tough situations",
+          "Short-term issues with follower engagement",
+          "Consistent failure to adapt to situational challenges",
+          "Lack of technical knowledge",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w6q3",
+        text: "____________ negotiation style reflects a 'Win-Win' approach?",
+        options: ["Competition", "Collaboration", "Compromise", "Avoidance"],
+        correctAnswer: 1,
+      },
+      {
+        id: "w6q4",
+        text: "Is Risk Assessment the first stage in the Three-Stage Crisis Management Plan",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+      {
+        id: "w6q5",
+        text: "Which of the following is a trait of adaptive leadership?",
+        options: [
+          "Encouraging shared responsibility",
+          "Rigid decision-making",
+          "Focusing on short-term gains",
+          "Avoiding accountability",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w6q6",
+        text: "What does the term 'task autonomy' refer to?",
+        options: [
+          "The degree of collaboration needed in tasks",
+          "Feedback given after task completion",
+          "The complexity of the task structure",
+          "The freedom to decide how to complete a task",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w6q7",
+        text: "Is the Narcissism personality trait most associated with destructive leaders ignoring inputs from others?",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+      {
+        id: "w6q8",
+        text: "What is the primary focus of episodic managerial incompetence?",
+        options: [
+          "Chronic inability to perform tasks",
+          "Temporary disruption due to tough events",
+          "Lack of organizational fit",
+          "Failure to build teams permanently",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w6q9",
+        text: "What is the primary aim of the Toxic to Transformative Triangle model?",
+        options: [
+          "To enhance destructive leadership skills",
+          "To provide tools for passive leadership",
+          "To reduce organizational complexity",
+          "To transform toxic leadership into constructive leadership",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w6q10",
+        text: "Which of the following describes the 'Avoidance' negotiation style?",
+        options: ["Win-Lose", "Lose-Lose", "Win-Win", "Compromise"],
+        correctAnswer: 1,
+      },
+    ],
+  },
+  //   Week 7
+  {
+    id: "week-7",
+    title: "Week-7 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w7q1",
+        text: "What are the seven primary characteristics that define organizational culture?",
+        options: [
+          "Leadership styles, trust, collaboration, team orientation, creativity, adaptability, ethics",
+          "Innovation, risk-taking, attention to detail, outcome orientation, people orientation, team orientation, stability",
+          "Diversity, hierarchy, market orientation, team spirit, creativity, empathy, ethics",
+          "Problem-solving, innovation, motivation, leadership agility, communication, collaboration, trust",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w7q2",
+        text: "What is the primary aim of a leadership culture, as defined by Robin Sharma?",
+        options: [
+          "Promoting hierarchy in decision-making",
+          "Encouraging everyone to think like owners or CEOs",
+          "Minimizing risk in decision-making",
+          "Fostering strict adherence to established procedures",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w7q3",
+        text: "____________ is NOT one of Schein’s four key organizational culture factors.",
+        options: [
+          "Myths and stories",
+          "Symbols and artifacts",
+          "Behavioral modeling",
+          "Language",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w7q4",
+        text: "Which leadership approach is essential for creating a positive organizational culture?",
+        options: [
+          "Delegation of tasks to subordinates",
+          "Rewarding employees more than punishing them",
+          "Adopting a laissez-faire leadership style",
+          "Focusing solely on profitability",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w7q5",
+        text: "What is a key characteristic of market-oriented cultures?",
+        options: [
+          "Emphasis on teamwork and loyalty",
+          "Stability and internal efficiency",
+          "Focus on external competitiveness and results",
+          "Adaptability and risk-taking",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w7q6",
+        text: "According to the GLOBE study, which leadership style focuses on building trust and compassion?",
+        options: [
+          "Charismatic leadership",
+          "Participative leadership",
+          "Autonomous leadership",
+          "Humane-oriented leadership",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w7q7",
+        text: "Which of the following is considered a universal leadership attribute in the GLOBE study?",
+        options: [
+          "Ruthlessness",
+          "Egocentrism",
+          "Trustworthiness",
+          "Dictatorial behavior",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w7q8",
+        text: 'What is the essence of a "glocal" mindset in global leadership?',
+        options: [
+          "Focusing solely on global strategies",
+          "Ignoring local cultural nuances",
+          "Balancing global integration with local responsiveness",
+          "Avoiding risk-taking in complex environments",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w7q9",
+        text: "What does the Pygmalion effect emphasize in goal setting?",
+        options: [
+          "High expectations can lead to higher performance",
+          "Low expectations prevent goal achievement",
+          "High goals demotivate employees",
+          "Leadership should remain neutral to follower expectations",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w7q10",
+        text: "Empowerment motivational theory emphasizes autonomy and self-determination.",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+    ],
+  },
+  //   Week 8
+  {
+    id: "week-8",
+    title: "Week-8 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w8q1",
+        text: "Which of the following is NOT a principle of group dynamics as discussed by Dorwin Carl Wright?",
+        options: [
+          "The more attractive a group is to its members, the greater its influence.",
+          "Information relating to change must be shared by all relevant people in the group.",
+          "Group members with diverse opinions should be excluded to avoid conflict.",
+          "Strong pressure for change can be created by fostering a shared perception of the need for change.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w8q2",
+        text: "Forming stage of Tuckman's stages of group development is characterized by a strong sense of group identity and camaraderie.",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+      {
+        id: "w8q3",
+        text: "According to Social Identity Theory, why do people have emotional reactions to the failure or success of their group?",
+        options: [
+          "They fear punishment for group failure.",
+          "They are naturally competitive.",
+          "Their self-esteem is tied to the group's performance.",
+          "They are empathetic to other group members.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w8q4",
+        text: "Which group dynamics theory suggests that individuals are drawn to groups based on shared attitudes towards common objects and goals?",
+        options: [
+          "Propinquity Theory",
+          "Balance Theory",
+          "Exchange Theory",
+          "Homan's Theory",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w8q5",
+        text: "Which of the following is NOT a class of group norms typically found in organizations?",
+        options: [
+          "Performance norms",
+          "Appearance norms",
+          "Leadership norms",
+          "Allocation of resources norms",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w8q6",
+        text: "What is the term for the tendency of individuals to put in less effort when working in a group compared to working alone?",
+        options: [
+          "Social loafing",
+          "Groupthink",
+          "Group-shift",
+          "Deviant workplace behavior",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w8q7",
+        text: "Which of the following strategies is recommended for effective group decision-making?",
+        options: [
+          "Strive for homogeneity in group composition.",
+          "Appoint a strategic dissenter.",
+          "Discourage independent opinion collection.",
+          "Rely heavily on experts.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w8q8",
+        text: "The case study about the housing bubble and collapse illustrates which group dynamic?",
+        options: [
+          "Groupthink",
+          "Role behavior",
+          "Status hierarchy",
+          "Herd behavior",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w8q9",
+        text: "What is the definition of teamwork?",
+        options: [
+          "The sum of individual efforts by team members.",
+          "The combined efforts of team members working cohesively towards a common goal.",
+          "The individual performances of team members working independently.",
+          "The competition among team members to achieve personal goals.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w8q10",
+        text: "Which of the following is NOT a primary benefit of implementing work teams?",
+        options: [
+          "Improved employee motivation",
+          "Positive synergy",
+          "Increased individual recognition",
+          "Improved turnover",
+        ],
+        correctAnswer: 2,
+      },
+    ],
+  },
+  //   Week 9
+  {
+    id: "week-9",
+    title: "Week-9 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w9q1",
+        text: "Which of the following is NOT a characteristic of Team Effectiveness as suggested by Larson & LaFasto (1989)?",
+        options: [
+          "Collaborative Climate",
+          "Competent Team Members",
+          "Shared Leadership",
+          "Standards of Excellence",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w9q2",
+        text: "Which of the following is NOT a symptom of ineffective teams?",
+        options: [
+          "High level of innovation",
+          "Confusion about assignments",
+          "Loss of production",
+          "Ineffective meetings",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w9q3",
+        text: "Which of the following is NOT a leadership action that can improve environmental interface with the team?",
+        options: [
+          "Buffering team members from environmental distractions",
+          "Sharing relevant environmental information with the team",
+          "Collaborating (including, involving)",
+          "Negotiating upward to secure necessary resources for the team",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w9q4",
+        text: 'What is the primary focus of the "Team-Centered Decision-Making Model"?',
+        options: [
+          "The leader makes all final decisions.",
+          "Team members are empowered to make decisions.",
+          "Decisions are made based on a strict hierarchy.",
+          "The model emphasizes individual contributions over team consensus.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w9q5",
+        text: "Which of the following is NOT a key characteristic of virtual teams?",
+        options: [
+          "Reliance on electronic communication",
+          "Geographical dispersion of team members",
+          "Always focused on short-term projects",
+          "Can have members working at different times",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w9q6",
+        text: 'What is the main difference between "Process Gain" and "Process Loss" in team dynamics?',
+        options: [
+          "Process Gain focuses on individual performance, while Process Loss focuses on team performance.",
+          "Process Gain refers to exceeding expected team output, while Process Loss refers to underperforming compared to individual capabilities.",
+          "Process Gain is a measure of efficiency, while Process Loss is a measure of effectiveness.",
+          "Process Gain highlights the positive aspects of team conflict, while Process Loss focuses on the negative aspects.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w9q7",
+        text: 'According to Hackman and Wageman, when is "Motivational Coaching" most effective in a team\'s life cycle?',
+        options: [
+          "At the beginning of a performance period",
+          "At the midpoint of a performance period",
+          "When performance activities have been completed",
+          "Throughout the entire performance period",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w9q8",
+        text: 'What is "Deterrence-Based Trust" primarily based on in the context of virtual teams?',
+        options: [
+          "Shared values and understanding",
+          "Consistent behavior and the threat of punishment",
+          "Long-term relationships and shared experiences",
+          "Open communication and mutual respect",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w9q9",
+        text: "Which team decision-making technique involves gathering expert opinions from geographically dispersed individuals without face-to-face interaction?",
+        options: [
+          "Brainstorming",
+          "Nominal Group Technique",
+          "Delphi Technique",
+          "Round Robin Technique",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w9q10",
+        text: "Which of the following is NOT a benefit of offsite training for team development?",
+        options: [
+          "Improved communication",
+          "Enhanced self-confidence",
+          "Increased cooperation",
+          "Guaranteed long-term behavioral change",
+        ],
+        correctAnswer: 3,
+      },
+    ],
+  },
+  //   Week 10
+  {
+    id: "week-10",
+    title: "Week-10 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w10q1",
+        text: "Which stage of the Multicultural Organization Development Model focuses on actively recruiting and promoting historically excluded groups?",
+        options: [
+          "The Exclusionary Organization",
+          "The Club",
+          "The Affirming Organization",
+          "The Redefining Organization",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w10q2",
+        text: 'What is the primary focus of the "Problem-Solving" component in team building?',
+        options: [
+          "Strengthening interpersonal relations",
+          "Identifying major team problems",
+          "Establishing team norms",
+          "Facilitating creative thinking",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w10q3",
+        text: "According to Kolb’s Experiential Learning Cycle, what comes after Reflective Observation?",
+        options: [
+          "Abstract Conceptualization",
+          "Active Experimentation",
+          "Concrete Experience",
+          "Direct Application",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w10q4",
+        text: "_____________ learning style in Kolb's theory emphasizes reasoning and systematic assessment.",
+        options: ["Diverging", "Converging", "Accommodating", "Assimilating"],
+        correctAnswer: 3,
+      },
+      {
+        id: "w10q5",
+        text: "What is a key principle of Action Learning?",
+        options: [
+          "It is an involuntary process.",
+          "It focuses exclusively on technical problems.",
+          "It centers on solving real-world problems.",
+          "It avoids team collaboration.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w10q6",
+        text: "Setting goals is the first step in conducting a GAPS analysis.",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+      {
+        id: "w10q7",
+        text: "Which behavior is foundational in building a cohesive team?",
+        options: [
+          "Conflict avoidance",
+          "Seeking consensus",
+          "Establishing strict rules",
+          "Trust building",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w10q8",
+        text: "What is the advantage of using experiential learning in corporate training?",
+        options: [
+          "It minimizes engagement levels.",
+          "It bridges theory and practice.",
+          "It focuses on rote learning.",
+          "It reduces the need for real-world application.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w10q9",
+        text: 'What does the "Law of the Chain" in team building imply?',
+        options: [
+          "The strength of the team depends on its weakest link.",
+          "Every team is independent of individual performance.",
+          "Teams function best without hierarchies.",
+          "Leadership is the sole determinant of success.",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w10q10",
+        text: "Schedule meetings identifying the strengths of team members in the team-building process.",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+    ],
+  },
+  //   Week 11
+  {
+    id: "week-11",
+    title: "Week-11 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w11q1",
+        text: "What is the primary focus of the GROW coaching model?",
+        options: [
+          "Establishing relationships",
+          "Setting clear, inspiring goals",
+          "Reviewing team performance",
+          "Enhancing team autonomy",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w11q2",
+        text: "Which characteristic is commonly associated with women leaders?",
+        options: [
+          "Command-and-control leadership style",
+          "Task-oriented but independent decision-making",
+          "Avoidance of collaboration",
+          "Transformational leadership style",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w11q3",
+        text: "According to Herzberg's Two-Factor Theory, Recognition is a motivator.",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+      {
+        id: "w11q4",
+        text: "What is the core principle of supportive communication?",
+        options: [
+          "Prioritizing global over specific messages",
+          "Focusing on problems, not personal traits",
+          "Avoiding congruence in verbal and non-verbal cues",
+          "Ignoring emotional responses during feedback",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w11q5",
+        text: "_______________ is an essential trait followers desire in their leaders?",
+        options: [
+          "Authoritarian behavior",
+          "Avoidance of collaboration",
+          "Dependability",
+          "Hesitation in decision-making",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w11q6",
+        text: "Which type of mentoring involves senior professionals being mentored by younger employees?",
+        options: [
+          "Speed mentoring",
+          "Reverse mentoring",
+          "Peer mentoring",
+          "Group mentoring",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w11q7",
+        text: "Which factor contributes significantly to women's leadership challenges?",
+        options: [
+          "Lack of educational opportunities",
+          "Abundance of flexible work environments",
+          "Declining opportunities for mentorship",
+          "Persistent societal stereotypes",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w11q8",
+        text: "What does Graicuna’s Theory on the Span of Management primarily analyze?",
+        options: [
+          "Employee productivity",
+          "Hierarchical leadership",
+          "Relationships between supervisors and subordinates",
+          "Team morale during management transitions",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w11q9",
+        text: "What is a core component of effective communication?",
+        options: [
+          "High probability of intended message understanding",
+          "Lack of clarity in delivery",
+          "Ignoring feedback",
+          "Avoiding symbols and signs",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w11q10",
+        text: "Rigid work structures enhance followers' job satisfaction.",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+    ],
+  },
+  //   Week 12
+  {
+    id: "week-12",
+    title: "Week-12 Leadership Fundamentals",
+    questions: [
+      {
+        id: "w12q1",
+        text: "What is a key component of setting effective goals in a team?",
+        options: [
+          "Avoiding feedback",
+          "Making goals inclusive",
+          "Setting unattainable goals",
+          "Ignoring individual roles",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w12q2",
+        text: "Which element is vital for constructive feedback?",
+        options: [
+          "Evaluative language",
+          "Indirect communication",
+          "Specificity and helpfulness",
+          "Delayed timing",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "w12q3",
+        text: "What does divergent thinking emphasize in problem-solving?",
+        options: [
+          "Finding a single, optimal solution",
+          "Applying linear reasoning",
+          "Prioritizing speed over creativity",
+          "Exploring multiple potential solutions",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w12q4",
+        text: 'In the Rocket Model, "Buy-In" refers to __________?',
+        options: [
+          "Commitment to team goals",
+          "Ensuring task delegation",
+          "Clarifying individual roles",
+          "Adapting to external changes",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: "w12q5",
+        text: "What is one characteristic of high-performing teams?",
+        options: [
+          "Lack of accountability",
+          "Mutual trust among members",
+          "Avoiding conflicts entirely",
+          "Rigid communication structures",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "w12q6",
+        text: "What is the purpose of the Trust Triangle?",
+        options: [
+          "Measuring organizational diversity",
+          "Enhancing credibility in leaders",
+          "Diagnosing team dynamics",
+          "Exploring authenticity, logic, and empathy",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w12q7",
+        text: "Is Adherence to ethical values a leadership trait critical for building credibility?",
+        options: ["True", "False"],
+        correctAnswer: 0,
+      },
+      {
+        id: "w12q8",
+        text: "What is one principle of developing others?",
+        options: [
+          "Relying solely on external motivation",
+          "Promoting competition over collaboration",
+          "Limiting learning opportunities",
+          "Respecting individual differences",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "w12q9",
+        text: "Setting realistic goals is a common barrier to goal achievement?",
+        options: ["True", "False"],
+        correctAnswer: 1,
+      },
+      {
+        id: "w12q10",
+        text: "What is a key step in the Creative Problem-Solving process?",
+        options: [
+          "Ignoring initial data collection",
+          "Avoiding divergent thinking",
+          "Formulating challenges to explore solutions",
+          "Skipping implementation plans",
+        ],
+        correctAnswer: 2,
+      },
+    ],
+  },
+];
